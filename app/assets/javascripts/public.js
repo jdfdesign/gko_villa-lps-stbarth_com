@@ -1,25 +1,76 @@
-//= require jquery
 //= require jquery_ujs
-//= require twitter.bootstrap.2.3.1/bootstrap/transition
-//= require twitter.bootstrap.2.3.1/bootstrap/alert
-//= require twitter.bootstrap.2.3.1/bootstrap/button
-//= require twitter.bootstrap.2.3.1/bootstrap/collapse
-//= require twitter.bootstrap.2.3.1/bootstrap/dropdown
-//= require twitter.bootstrap.2.3.1/bootstrap/modal
-//= require flexslider/jquery.flexslider.js
+//= require remote_form 
+//= require jquery.placeholder
 
-$(document).ready(function() {
-  Slideshow.init();
+// make console.log safe to use
+window.console || (console = {
+  log: function() {}
 });
 
-var Slideshow = {
+jQuery(function($){
+  'use strict';
+  var THEME = window.THEME || {};
 
-  init: function() {
-    // The slider being synced must be initialized first
-    $('.carousel-flexslider').hide();
+/* ==================================================
+	Fix
+================================================== */ 
 
-    $('.slider-flexslider').flexslider({
-      animation: "slide"
-    });
-  }
-}
+  THEME.fix = function(){
+    // fix for ie device_width bug 
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+      var msViewportStyle = document.createElement("style");
+      msViewportStyle.appendChild(
+      document.createTextNode("@-ms-viewport{width:auto!important}"));
+      document.getElementsByTagName("head")[0].
+      appendChild(msViewportStyle);
+    }
+  };
+  
+/* ==================================================
+	Placeholder
+================================================== */ 
+
+  THEME.placeholder = function(){
+    // enable placeholder fix for old browsers
+    $('input, textarea').placeholder();
+  };
+
+/* ==================================================
+	Placeholder
+================================================== */ 
+
+  THEME.carousel = function(){
+    // start the carousel if there is more than one image
+    // else hide controls
+    $('.carousel').each(function(index) {
+      var _self = $(this);
+      if (_self.find('.item').length > 1) {
+        _self.carousel({
+          interval: 3000
+        });
+      } else {
+        _self.find('.carousel-control').each(function(index) {
+          $(this).css({
+            display: 'none'
+          })
+        })
+        _self.find('.carousel-indicators').each(function(index) {
+          $(this).css({
+            display: 'none'
+          })
+        })
+      }
+    })
+  };   
+    
+/*==================================================
+  	Init
+==================================================*/
+
+  $(document).ready(function() {
+    THEME.fix(); 
+    THEME.placeholder();
+    THEME.carousel();
+  });
+
+}); 

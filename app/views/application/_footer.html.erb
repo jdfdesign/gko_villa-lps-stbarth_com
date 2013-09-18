@@ -1,0 +1,19 @@
+<% cache([site, I18n.locale, 'footer']) do %>
+<!-- Header
+================================================== -->
+<footer class="hidden-print">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6"> 
+        <%= render_menu('footer_nav') %>
+      </div>
+      <div class="col-sm-12 col-md-6"> 
+        <p class="copyright"><span><%= t(:'copyright', :year => Time.now.year, :copyright_name => site.copyright_name) if site.copyright_name %></span>
+        <a href='http://www.joufdesign.com' class="copyright-author" target='_blank'>
+          <%= t(:'site_by', :name => "Jouf Design").html_safe %>
+        </a></p>
+      </div>
+    </div>
+  </div>
+</footer> 
+<% end %>

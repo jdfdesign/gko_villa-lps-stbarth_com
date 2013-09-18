@@ -1,12 +1,12 @@
 GIT
   remote: git@github.com:jdfdesign/gko_cms3.git
-  revision: 97ea4345f94b1719438d3fd8ca4e6cd9ad7eb9b9
-  tag: v0.6.50.rc9
+  revision: 1a2240a9d1112e98740341fda7c47e8a6a97cc78
+  tag: v0.6.60.rc8
   specs:
-    gko_auth (0.6.50.rc9)
+    gko_auth (0.6.60.rc8)
       cancan (~> 1.6.10)
       devise (~> 2.2.3)
-    gko_core (0.6.50.rc9)
+    gko_core (0.6.60.rc8)
       RedCloth (= 4.2.9)
       activesupport-slices (= 0.0.2)
       acts_as_indexed (~> 0.7.7)
@@ -49,10 +49,10 @@ GIT
       uglifier (>= 1.0.3)
       uuid (= 2.3.5)
       will_paginate (~> 3.0.2)
-    gko_documents (0.6.50.rc9)
+    gko_documents (0.6.60.rc8)
       dragonfly (~> 0.9.8)
       rack-cache (>= 0.5.3)
-    gko_inquiries (0.6.50.rc9)
+    gko_inquiries (0.6.60.rc8)
       filters_spam (~> 0.2)
 
 GEM
@@ -91,7 +91,7 @@ GEM
     addressable (2.3.5)
     arel (3.0.2)
     babosa (0.3.11)
-    bcrypt-ruby (3.1.1)
+    bcrypt-ruby (3.1.2)
     builder (3.0.4)
     cancan (1.6.10)
     capistrano (2.15.5)
@@ -104,7 +104,7 @@ GEM
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
-    codemirror-rails (3.15)
+    codemirror-rails (3.16)
       railties (>= 3.0, < 5)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -162,7 +162,7 @@ GEM
       addressable (~> 2.3)
     letter_opener (1.1.2)
       launchy (~> 2.2)
-    libv8 (3.11.8.17)
+    libv8 (3.16.14.3)
     lol_dba (1.6.0)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
@@ -173,7 +173,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mail_form (1.3.0)
-    mime-types (1.24)
+    mime-types (1.25)
     mobile-fu (1.1.1)
       rack-mobile-detect
       rails
@@ -186,7 +186,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (2.6.8)
+    net-ssh (2.7.0)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
     orm_adapter (0.4.0)
@@ -239,7 +239,7 @@ GEM
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
-    spreadsheet (0.8.8)
+    spreadsheet (0.9.0)
       ruby-ole (>= 1.0)
     sprockets (2.2.2)
       hike (~> 1.2)
@@ -249,12 +249,12 @@ GEM
     systemu (2.5.2)
     term-ansicolor (1.2.2)
       tins (~> 0.8)
-    therubyracer (0.11.4)
-      libv8 (~> 3.11.8.12)
+    therubyracer (0.12.0)
+      libv8 (~> 3.16.14.0)
       ref
     thor (0.18.1)
     tilt (1.4.1)
-    tins (0.8.4)
+    tins (0.9.0)
     to_xls (1.5.2)
       spreadsheet
     treetop (1.4.15)

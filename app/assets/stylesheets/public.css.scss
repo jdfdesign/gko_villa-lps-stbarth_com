@@ -1,4 +1,362 @@
-@import "variables";
-@import "twitter.bootstrap.2.3.1/bootstrap-awesome";
+/*
+Theme Name:         Villa
+Description:        Villa is html 5 theme to display your villa.
+Version:            1.0.0
+Author:             Regis Bruggheman
+Author URI:         http://joufdesign.com
 
-@import "flexslider/flexslider";
+*/
+
+/* THEME VARIABLES
+-------------------------------------------------- */
+$th-footer-height: 60px;
+
+/* IMPORTS
+-------------------------------------------------- */
+@import "variables";
+@import "twitter/bootstrap/3.0.0.rc2/bootstrap";
+@import "font-awesome";
+
+/* FIX FOR IE DEVICE_WIDTH BUG
+-------------------------------------------------- */
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+/* FIX FOR GMAP BUG
+-------------------------------------------------- */
+#map-canvas {
+  height: 400px;
+  img {
+    max-width: none;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+  }
+}
+
+/* GLOBAL STYLE
+-------------------------------------------------- */
+// We do not want focus
+// -------------------------
+a:focus,
+.btn:focus {
+  outline: 0;
+}
+::selection {
+	background-color: $brand-primary;
+	color: #fff;
+}
+a {
+  @include transition(all 0.3s ease-in-out);
+}
+/* STICKY FOOTER STYLES
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto (-$th-footer-height);
+  /* Pad bottom by footer height */
+  padding: 0 0 $th-footer-height;
+}
+
+/* Set the fixed height of the footer here */
+footer {
+  height: $th-footer-height;
+  background-color: #fff;
+
+}
+
+/* LAYOUT
+-------------------------------------------------- */
+body {
+  background-image: asset-url("retina_wood.png", "image");
+  background-position: 0 0;
+  background-repeat: repeat repeat;
+}
+
+/* TYPES
+-------------------------------------------------- */
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: $brand-primary;
+}
+/* CUSTOMIZE THE FOOTER
+-------------------------------------------------- */
+// Uncollapse the nav
+
+footer {
+  font-size: ceil($font-size-base * 0.70); // ~12px
+  text-transform: uppercase;
+}
+footer .nav {
+  float: left;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  > li {
+    float: left;
+    > a {
+      padding-top: (($th-footer-height - $line-height-computed) / 2);
+      padding-bottom: (($th-footer-height - $line-height-computed) / 2);
+      
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        color: $brand-primary;
+      }
+    }
+  }
+} 
+
+.copyright {
+  padding-top: (($th-footer-height - $line-height-computed) / 2);
+  padding-bottom: (($th-footer-height - $line-height-computed) / 2);
+  margin-bottom: 0;
+  @media (min-width: $grid-float-breakpoint) {
+    @include pull-right(); 
+  }
+}
+
+.copyright-author {
+ 	background: transparent image-url('gko/logo_gecko_black.png') center left no-repeat;
+ 	padding-left: 28px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0;
+  max-width: $screen-tablet;
+  @include center-block();
+
+}
+
+.carousel-inner > .item > img {
+  min-width: 100%;
+}
+
+// Toggles
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+  width:  90px;
+  height: 90px;
+  margin-top: -45px;
+  margin-left: -45px;
+  font-family: serif;
+  font-size: 90px;
+}
+// Scale up controls for tablets and up
+@media screen and (min-width: $screen-tablet) {
+
+  // Scale up the controls a smidge
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width:  90px;
+    height: 90px;
+    margin-top: -45px;
+    margin-left: -45px;
+    font-size: 90px;
+  }
+} 
+@media (min-width: $grid-float-breakpoint) {
+  .carousel-control .icon-prev {
+    margin-left: -120px;
+  }
+  .carousel-control .icon-next {
+    margin-left: 30px;
+  }
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar {
+
+  &.navbar-default {
+    border-bottom-color: #ccc;
+  }
+}
+.navbar-brand {
+  font-family: 'Lobster', Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+} 
+.navbar-nav {
+  
+  > li > a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: $font-size-base - 3;
+  }
+
+  .dropdown {
+     > a .caret {
+       display:none; 
+     }
+    .dropdown-menu {
+      display: block;
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      box-shadow: none;
+      > li > a,
+       .dropdown-header {
+         padding: 5px 15px 5px 25px;
+       }
+       > li > a {
+         line-height: $line-height-computed;
+         &:hover,
+         &:focus {
+           background-image: none;
+         }
+       }
+     } 
+  }
+
+  @media (min-width: $grid-float-breakpoint) {
+    @include pull-right;
+    .dropdown {
+      > a .caret {
+         display: inline-block; 
+      }
+      .dropdown-menu {
+        position: absolute;
+        display: none;
+        float: left;
+        background-color: $dropdown-bg;
+        border: 1px solid $dropdown-fallback-border; // IE8 fallback
+        border: 1px solid $dropdown-border;
+        border-radius: $border-radius-base;
+        @include box-shadow(0 6px 12px rgba(0,0,0,.175));
+      }
+      &:hover {
+        .dropdown-menu {
+          display: block; 
+        }
+      } 
+    }
+  }
+}
+
+#locales-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  .nav > li > a { 
+    background-color: $brand-primary;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: $font-size-base - 5;
+    padding: 4px 8px;
+    &:hover,
+    &:focus {
+      background-color: lighten($brand-primary, 10%); 
+      color: white;
+    }
+  }
+}
+
+/* CUSTOMIZE ARTICLES
+-------------------------------------------------- */ 
+
+.article-body {
+  background-color: #fff;
+  padding-top: $line-height-computed * 3;
+  padding-bottom: $line-height-computed * 3; 
+  text-align: center;
+  
+  h1 {
+    margin-bottom: $line-height-computed * 3;
+  }
+}
+.copy-text {
+  font-family: $font-family-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 600px;
+  @include center-block();
+  table {
+    @extend .table;
+    text-align: center;
+  }
+}
+
+/* CONTACT STYLES
+-------------------------------------------------- */ 
+#contact_us { 
+  padding-top: $line-height-computed * 3;
+  padding-bottom: $line-height-computed * 3;
+  
+  form {
+    margin-top: 2em;
+  }
+}
+
+.form-control {
+  @include box-shadow(none); 
+  @include transition(all 0.4s ease-in-out); 
+  &:focus {
+    border-color: none;
+    outline: 0;
+    @include box-shadow(none);
+    background: #e6e6e6;
+  } 
+}
+input {
+  color:#1a1a1a;
+  font-weight: normal;
+}
+input[type="text"] { 
+  margin-bottom: 15px;height:40px;
+}
+textarea.form-control {
+  height:120px; 
+  resize: none;
+}
+
+#contact_us .btn {
+  width:100%;
+  margin-top:1em; 
+  border-radius:0; 
+  border:none; 
+  background-color: $brand-primary; 
+  color: white;
+  text-transform: uppercase;
+  @include transition(all 0.4s ease-in-out);
+  &:hover {
+    background-color: lighten($brand-primary, 10%); 
+    color: white;
+  }
+}
+.formContainer{position: relative;}
+
+
+span.error,span.valid{position: absolute;top:0; right: 1em;}
+span.error, span.valid{ width:40px;height:40px; background-position:center center;background-size:20px; background-repeat: no-repeat;}
+span.error{background-image:image_path("notifications/error.svg");}
+span.valid{background-image:image_path("notifications/valid.svg");}
+
+.alert{display:none;border: 0; border-radius: 0; background-color:#ff3333; color: white;}
+.alert-success{background-color:#22b573; color: white;}
+
+
