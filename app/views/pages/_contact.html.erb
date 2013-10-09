@@ -1,18 +1,17 @@
 <% if local_assigns.has_key? :record %>
-<section id="<%= dom_id(record) %>_page" class="contact">
+<section id="<%= dom_id(record) %>_page" class="section contact">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 intro">
+      <div class="col-xs-12">
         <h2 class="page-title"><%= record.title %></h2>
-        
+        <hr>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6">
-      <%= render_copy_text(record.body) %> 
+        <%= render_copy_text(record.body) %> 
       </div>
       <div class="col-xs-12 col-sm-6">
-      
         <form id="contact-form" role="form" action="/inquiries" method="post" data-remote="true">
           <div class="col-xs-12 form-group">
             <input type="text" name="inquiry[name]" id="name" value="" class="form-control requiredField" placeholder="Name">

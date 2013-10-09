@@ -9,7 +9,6 @@ Author URI:         http://joufdesign.com
 
 /* THEME VARIABLES
 -------------------------------------------------- */
-$th-footer-height: 60px;
 
 /* IMPORTS
 -------------------------------------------------- */
@@ -56,31 +55,6 @@ a {
 /* STICKY FOOTER STYLES
 -------------------------------------------------- */
 
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto (-$th-footer-height);
-  /* Pad bottom by footer height */
-  padding: 0 0 $th-footer-height;
-}
-
-/* Set the fixed height of the footer here */
-footer {
-  height: $th-footer-height;
-  background-color: #fff;
-
-}
-
-
 #back-to-top {
   position: fixed;
   right: 20px;
@@ -91,17 +65,18 @@ footer {
   width: 50px;
   height: 42px;
   line-height: 42px;
-  background-color: #323A45;
+  background-color: #505050;
+  color: #fff;
   @include transition(all 0.4s ease-in-out);
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $brand-primary;
+  }
 }
 
 /* LAYOUT
 -------------------------------------------------- */
-body {
-  //background-image: asset-url("fake_brick.png", "image");
-  background-position: 0 0;
-  background-repeat: repeat repeat;
-}
 
 /* TYPES
 -------------------------------------------------- */
@@ -115,16 +90,28 @@ h1, h2, h3, h4, h5, h6,
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
   margin-bottom: 0;
   max-width: none;
-  @include center-block();
-
+  background-color: #505050;
+  overflow: hidden;
 }
-
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #505050;
+}
 .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
   min-width: 100%;
 }
 
@@ -135,7 +122,6 @@ h1, h2, h3, h4, h5, h6,
   height: 90px;
   margin-top: -45px;
   margin-left: -45px;
-  font-family: serif;
   font-size: 90px;
 }
 // Scale up controls for tablets and up
@@ -152,6 +138,17 @@ h1, h2, h3, h4, h5, h6,
   }
 } 
 @media (min-width: $grid-float-breakpoint) {
+  /* Bump up heights of carousel item */
+  .carousel .item {
+    height: 700px;
+  }
+
+  /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 20px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
   .carousel-control .icon-prev {
     margin-left: -120px;
   }
@@ -259,33 +256,47 @@ body { padding-top: $navbar-height; }
 /* CUSTOMIZE ARTICLES
 -------------------------------------------------- */ 
 
-.article-body {
+.section {
   padding-top: $line-height-computed * 3;
   padding-bottom: $line-height-computed * 3; 
   text-align: left;
-  
+  background-color: $body-bg;
+  hr {
+    margin-top: 0; 
+    padding-top: 0;
+    border-top-color: $brand-primary;
+  }
   strong {
     color: #000;
   }
-  h1 {
-    margin-bottom: $line-height-computed * 3;
+  h2 {
+    margin-bottom: 0;
+    padding-bottom: $line-height-computed;
+    border-bottom: 4px solid $brand-primary;
+    display: inline-block;
   }
 } 
-article {
- background-color: $body-bg;
+
+.section:nth-child(2n+1) {
+  background-color: #fff;
 }
-article:nth-child(2n+1) {
- background-color: #fff;
-}
+.section.contact { 
+  background-color: #2d2d2d;
+  color: $gray-light;
+  .page-title {
+    color: #fff;
+  }
+} 
+
 .copy-text {
   font-size: 17px;
   line-height: 30px;
   font-weight: 400;
-  max-width: 700px;
-  @include center-block();
+  //max-width: 700px;
+  //@include center-block();
   table {
     @extend .table;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -302,43 +313,35 @@ article:nth-child(2n+1) {
   margin-left: auto;
   margin-right: auto;
 } 
-.post-item {
-  min-height: 180px;
-  background-color: #2d2d2d;
-}
 
 
 .post-title {
   text-transform: uppercase;
   font-size: 11px;
-  color: #eee;
-  letter-spacing: 1px; 
+  margin: 0;
+  padding: $line-height-computed 8px;
+  //color: #eee;
+  letter-spacing: 2px; 
   text-align: center;
+  @include text-overflow();
 }  
 .post-image {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    img { 
-      @include img-responsive;
-      -webkit-filter: grayscale(100%);
-      filter: url("data:image/svg+xml;filter: gray;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
-    }
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.post-item:hover {
+  background-color: $brand-primary;
+  .post-image {
+    @include opacity(.9);
   }
-  .no-touch .post-item:hover img, 
-  .touch .post-item img {
-    -webkit-filter: grayscale(0%);
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
-  }
-  
-.contact { 
-  background-color: #2d2d2d;
-  color: $gray-light;
-  .page-title {
+  .post-title {
     color: #fff;
   }
-} 
+}
 
+/* MODAL STYLES
+-------------------------------------------------- */
 .modal-header {
   border-bottom-color: #2d2d2d;
   color: $gray-light;

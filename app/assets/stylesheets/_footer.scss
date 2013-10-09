@@ -1,70 +1,31 @@
 /* COPYRIGHT
 -------------------------------------------------- */
 #copyright {
-  //background: #2B3033;
-  
   .container {
-    border-top: 1px solid #474747;
     padding-top: $line-height-computed;
     padding-bottom: $line-height-computed; 
   }
-   p {
+  p {
      color: #989898;
      font-size: 11px;
   }
-}
-.nav-menu-legal {
-  > li {
-    float: left;
-    margin-right: 15px;
-  }
-  > li > a {
-    color: #989898;
-    font-size: 11px;
-    padding: 0;
-    &:hover {
-      color: black;
-      background-color: transparent;
+  .nav {
+    > li {
+      float: left;
+      margin-right: 15px;
     }
-  }
-}
-
-/* CUSTOMIZE THE FOOTER
--------------------------------------------------- */
-// Uncollapse the nav
-
-footer {
-  font-size: ceil($font-size-base * 0.70); // ~12px
-  text-transform: uppercase;
-}
-footer .nav {
-  float: left;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  > li {
-    float: left;
-    > a {
-      padding-top: (($th-footer-height - $line-height-computed) / 2);
-      padding-bottom: (($th-footer-height - $line-height-computed) / 2);
-      
-      &:hover,
-      &:focus {
-        background-color: transparent;
+    > li > a {
+      color: #989898;
+      font-size: 11px;
+      padding: 0;
+      &:hover {
         color: $brand-primary;
+        background-color: transparent;
       }
     }
   }
-} 
-
-.copyright {
-  padding-top: (($th-footer-height - $line-height-computed) / 2);
-  padding-bottom: (($th-footer-height - $line-height-computed) / 2);
-  margin-bottom: 0;
-  @media (min-width: $grid-float-breakpoint) {
-    @include pull-right(); 
-  }
 }
+
 
 .copyright-author {
  	background: transparent image-url('gko/logo_gecko_black.png') center left no-repeat;
