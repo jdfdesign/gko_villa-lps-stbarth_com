@@ -18,7 +18,7 @@ $gray-lighter:           lighten(#000, 93.5%); // #eee
 // Brand colors
 // -------------------------
 
-$brand-primary:         #315557;
+$brand-primary:         #4dc8e0;
 $brand-success:         #5cb85c;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
@@ -27,8 +27,8 @@ $brand-info:            #5bc0de;
 // Scaffolding
 // -------------------------
 
-$body-bg:               #fff;
-$text-color:            $gray-dark;
+$body-bg:               #eee;//#fff;
+$text-color:            #505050;
 
 // Links
 // -------------------------
@@ -39,10 +39,10 @@ $link-hover-color:      darken($link-color, 15%);
 // Typography
 // -------------------------
 
-$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
-$font-family-base:        $font-family-serif;
+$font-family-base:        $font-family-sans-serif;
 
 $font-size-base:          14px;
 $font-size-large:         ceil($font-size-base * 1.25); // ~18px
@@ -51,8 +51,8 @@ $font-size-small:         ceil($font-size-base * 0.85); // ~12px
 $line-height-base:        1.428571429; // 20/14
 $line-height-computed:    floor($font-size-base * $line-height-base); // ~20px
 
-$headings-font-family:    'Lobster', Georgia, "Times New Roman", Times, serif;
-$headings-font-weight:    500;
+$headings-font-family:    $font-family-base;
+$headings-font-weight:    700;
 $headings-line-height:    1.1;
 
 // Iconography
@@ -236,7 +236,7 @@ $grid-float-breakpoint:     $screen-desktop;
 // -------------------------
 
 // Basics of a navbar
-$navbar-height:                    100px;
+$navbar-height:                    116px;
 $navbar-margin-bottom:             0;
 $navbar-default-color:             #777;
 $navbar-default-bg:                #fff;
@@ -427,7 +427,7 @@ $modal-inner-padding:         20px;
 $modal-title-padding:         15px;
 $modal-title-line-height:     $line-height-base;
 
-$modal-content-bg:                             #fff;
+$modal-content-bg:                             #2d2d2d;//#fff;
 $modal-content-border-color:                   rgba(0,0,0,.2);
 $modal-content-fallback-border-color:          #999;
 
@@ -488,7 +488,7 @@ $list-group-link-heading-color:  #333;
 
 // Panels
 // -------------------------
-$panel-bg:                    #fff;
+$panel-bg:                    $body-bg;//#fff;
 $panel-inner-border:          #ddd;
 $panel-border-radius:         $border-radius-base;
 $panel-footer-bg:             #f5f5f5;

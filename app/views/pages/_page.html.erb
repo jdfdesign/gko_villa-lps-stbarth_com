@@ -1,0 +1,37 @@
+<% if local_assigns.has_key? :record %>   
+<article id="<%= dom_id(record) %>_page">
+  <%= render_slideshow_for(record) %>
+  <div class="article-body">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-xs-12">
+        <h2 class="page-title"><%= record.title %></h2>
+        <hr/>
+        <%= render_copy_text(record.body) %>
+        </div> 
+      </div>
+    </div>
+  </div>
+  <% if record.children.in_menu.try(:any?) %>
+  <div id="spaces" class="container">
+    <div class="row">
+        <% record.children.in_menu.each do |p| %>
+        <div class="col-xs-3 col-sm-2">
+          <div class="post-item">
+          <%= link_to(p.public_url, :data => { :remote => true }) do %>
+            <%= content_tag(:div, :class => "post-image ") do %>
+              <%#= image_tag(project.thumbnail.thumbnail.black_and_white("450x325#").url(), :alt => project.thumbnail.title ) %>
+              <%= image_tag(p.thumbnail.thumbnail("360x360#").url(), :alt => p.thumbnail.title, :class =>"img-responsive" ) %>
+            <% end if p.thumbnail %>
+            <div class="post-caption">
+              <h3 class="post-title"><%= p.title %></h3>
+            </div>
+          <% end %>
+          </div>
+        </div> 
+        <% end %>
+    </div>
+   </div>
+  <% end %>  
+</article>
+<% end %> 

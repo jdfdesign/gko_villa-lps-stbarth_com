@@ -16,7 +16,8 @@ $th-footer-height: 60px;
 @import "variables";
 @import "twitter/bootstrap/3.0.0.rc2/bootstrap";
 @import "font-awesome";
-
+@import "footer";
+ 
 /* FIX FOR IE DEVICE_WIDTH BUG
 -------------------------------------------------- */
 @-webkit-viewport{width:device-width}
@@ -79,10 +80,25 @@ footer {
 
 }
 
+
+#back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  z-index: 99;
+  display: none;
+  margin: 0;
+  width: 50px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #323A45;
+  @include transition(all 0.4s ease-in-out);
+}
+
 /* LAYOUT
 -------------------------------------------------- */
 body {
-  background-image: asset-url("retina_wood.png", "image");
+  //background-image: asset-url("fake_brick.png", "image");
   background-position: 0 0;
   background-repeat: repeat repeat;
 }
@@ -96,54 +112,14 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: $brand-primary;
 }
-/* CUSTOMIZE THE FOOTER
--------------------------------------------------- */
-// Uncollapse the nav
 
-footer {
-  font-size: ceil($font-size-base * 0.70); // ~12px
-  text-transform: uppercase;
-}
-footer .nav {
-  float: left;
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  > li {
-    float: left;
-    > a {
-      padding-top: (($th-footer-height - $line-height-computed) / 2);
-      padding-bottom: (($th-footer-height - $line-height-computed) / 2);
-      
-      &:hover,
-      &:focus {
-        background-color: transparent;
-        color: $brand-primary;
-      }
-    }
-  }
-} 
-
-.copyright {
-  padding-top: (($th-footer-height - $line-height-computed) / 2);
-  padding-bottom: (($th-footer-height - $line-height-computed) / 2);
-  margin-bottom: 0;
-  @media (min-width: $grid-float-breakpoint) {
-    @include pull-right(); 
-  }
-}
-
-.copyright-author {
- 	background: transparent image-url('gko/logo_gecko_black.png') center left no-repeat;
- 	padding-left: 28px;
-}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
   margin-bottom: 0;
-  max-width: $screen-tablet;
+  max-width: none;
   @include center-block();
 
 }
@@ -185,7 +161,8 @@ footer .nav {
 }
 
 /* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
+-------------------------------------------------- */ 
+body { padding-top: $navbar-height; }
 .navbar {
 
   &.navbar-default {
@@ -193,8 +170,11 @@ footer .nav {
   }
 }
 .navbar-brand {
-  font-family: 'Lobster', Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 } 
 .navbar-nav {
   
@@ -202,6 +182,7 @@ footer .nav {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: $font-size-base - 3;
+    font-weight: 700;
   }
 
   .dropdown {
@@ -279,26 +260,91 @@ footer .nav {
 -------------------------------------------------- */ 
 
 .article-body {
-  background-color: #fff;
   padding-top: $line-height-computed * 3;
   padding-bottom: $line-height-computed * 3; 
-  text-align: center;
+  text-align: left;
   
+  strong {
+    color: #000;
+  }
   h1 {
     margin-bottom: $line-height-computed * 3;
   }
+} 
+article {
+ background-color: $body-bg;
+}
+article:nth-child(2n+1) {
+ background-color: #fff;
 }
 .copy-text {
-  font-family: $font-family-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: 400;
-  max-width: 600px;
+  max-width: 700px;
   @include center-block();
   table {
     @extend .table;
     text-align: center;
   }
+}
+
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding-bottom: 15px;
+  color: #2d2d2d;
+  letter-spacing: 2px;
+  text-align: left; 
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.post-item {
+  min-height: 180px;
+  background-color: #2d2d2d;
+}
+
+
+.post-title {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #eee;
+  letter-spacing: 1px; 
+  text-align: center;
+}  
+.post-image {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    img { 
+      @include img-responsive;
+      -webkit-filter: grayscale(100%);
+      filter: url("data:image/svg+xml;filter: gray;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
+    }
+  }
+  .no-touch .post-item:hover img, 
+  .touch .post-item img {
+    -webkit-filter: grayscale(0%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+  }
+  
+.contact { 
+  background-color: #2d2d2d;
+  color: $gray-light;
+  .page-title {
+    color: #fff;
+  }
+} 
+
+.modal-header {
+  border-bottom-color: #2d2d2d;
+  color: $gray-light;
+  .close {
+    color: $gray-light; 
+  } 
 }
 
 /* CONTACT STYLES

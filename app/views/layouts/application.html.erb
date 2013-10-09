@@ -7,11 +7,14 @@
     <section class="main-content">
       <%= yield %>
     </section>
-    <section id="contact_us">
-      <%= render "contact" %>
-    </section> 
   </div>
+  <%= render 'google_map' %>
   <%= render 'footer' %> 
+  <!-- Back To Top -->
+  <a id="back-to-top" href="#" class="text-center">
+  	<i class="icon-angle-up icon-2x"></i>
+  </a>
+  <!-- End Back to Top -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <%= render 'javascripts' %> 

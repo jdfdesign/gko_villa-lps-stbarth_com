@@ -1,6 +1,7 @@
 //= require jquery_ujs
 //= require remote_form 
 //= require jquery.placeholder
+//= require jquery.easing
 
 // make console.log safe to use
 window.console || (console = {
@@ -61,8 +62,62 @@ jQuery(function($){
         })
       }
     })
-  };   
-    
+  };
+  /* ==================================================
+  	Navigation
+  ================================================== */
+  THEME.navigation = function(){
+    $('.navbar-nav li').on("click", function(e) {
+      var target = $("#" + $(this).attr('id') + "_page");
+      
+      $(this).parent().find('li').removeClass('active');
+      $(this).addClass('active');
+      
+      if($(window).width()<=767){
+		    $('html, body').stop().animate({
+		        scrollTop: target.offset().top-43
+		    }, 1500,'easeInOutExpo');	
+	    } else {
+		    $('html, body').stop().animate({
+		        scrollTop: target.offset().top-52
+		    }, 1500,'easeInOutExpo');			    
+	    }
+	    
+      e.preventDefault();
+    })
+  }
+  
+     
+  /* ==================================================
+  	Scroll to Top
+  ================================================== */
+
+  THEME.scrollToTop = function(){
+  	var didScroll = false;
+
+  	var $arrow = $('#back-to-top');
+
+  	$arrow.click(function(e) {
+  		$('body,html').animate({ scrollTop: "0" }, 750, 'easeOutExpo' );
+  		e.preventDefault();
+  	});
+
+  	$(window).scroll(function() {
+  		didScroll = true;
+  	});
+
+  	setInterval(function() {
+  		if( didScroll ) {
+  			didScroll = false;
+
+  			if( $(window).scrollTop() > 1000 ) {
+  				$arrow.css('display', 'block');
+  			} else {
+  				$arrow.css('display', 'none');
+  			}
+  		}
+  	}, 250);
+  };
 /*==================================================
   	Init
 ==================================================*/
@@ -71,6 +126,8 @@ jQuery(function($){
     THEME.fix(); 
     THEME.placeholder();
     THEME.carousel();
+    THEME.navigation();
+    THEME.scrollToTop();
   });
 
 }); 

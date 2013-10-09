@@ -1,0 +1,19 @@
+<%# resource_cache(resource) do %>
+  <%= render_slideshow_for(resource) %> 
+  <article class="<%= resource_instance_name %>">
+    
+    <div class="article-body">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-xs-12">
+          <%= render_page_title(resource.title) if resource.show_title_in_page %>
+          <%= render_copy_text(resource.body) %>
+          </div> 
+        </div>
+      </div>
+    </div> 
+	</article>
+	<% resource.children.in_menu.each do |p| %>
+	  <%= render((p.template.present? ? p.template : 'page'), :record => p) %>
+	<% end %>
+<%# end %>
