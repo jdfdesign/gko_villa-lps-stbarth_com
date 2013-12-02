@@ -14,16 +14,16 @@
       <div class="col-xs-12 col-sm-6">
         <form id="contact-form" role="form" action="/inquiries" method="post" data-remote="true">
           <div class="col-xs-12 form-group">
-            <input type="text" name="inquiry[name]" id="name" value="" class="form-control requiredField" placeholder="Name">
+            <input type="text" name="inquiry[name]" id="inquiry_name" value="" class="form-control requiredField" placeholder="Name">
           </div>
           <div class="col-xs-12 form-group">
-            <input type="text" name="inquiry[email]" id="email" value="" class="form-control requiredField email" placeholder="Email">
+            <input type="text" name="inquiry[email]" id="inquiry_email" value="" class="form-control requiredField email" placeholder="Email">
           </div>
           <div class="col-xs-12 form-group">
-            <textarea name="inquiry[message]" id="message" rows="20" cols="30" class="form-control requiredField" placeholder="Briefing"></textarea>
+            <textarea name="inquiry[message]" id="inquiry_message" rows="20" cols="30" class="form-control requiredField" placeholder="Briefing"></textarea>
           </div>
           <div class="col-xs-12 form-group">
-            <input type="hidden" name="submitted" id="submitted" class="button" value="SEND"><button id="submit" class="btn btn-primary btn-block btn-big" type="submit"><%= t("gko.inquiry_submit") %></button>
+            <input type="hidden" name="submitted" id="submitted" class="button" value="SEND" data-disable-with="Submitting..."><button id="submit" class="btn btn-primary btn-block btn-big" type="submit"><%= t("gko.inquiry_submit") %></button>
           </div>
           <div class="col-xs-12 form-group">
             <p id="error" data-alert="" class="alert"><%= t("gko.inquiry_error") %></p>

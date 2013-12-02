@@ -1,4 +1,4 @@
-<% resource_cache(resource) do %>
+<%# resource_cache(resource) do %>
   <%= render_slideshow_for(resource) %> 
   <article class="section">
     <div class="article-body">
@@ -15,4 +15,4 @@
 	<% resource.children.in_menu.each do |p| %>
 	  <%= render((p.template.present? ? p.template : 'page'), :record => p) %>
 	<% end %>
-<% end %>
+<%# end %>

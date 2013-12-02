@@ -1,4 +1,5 @@
 //= require jquery_ujs
+//= require jquery.easing 
 //= require remote_form
 //= require jquery.placeholder
 
@@ -102,7 +103,8 @@ jQuery(function($){
       
       $('.navbar-nav li').on("click", function(e) {
         var target = $("#" + $(this).attr('id') + "_page");
-
+         e.preventDefault();
+console.log(target.offset())
         $(this).parent().find('li').removeClass('active');
         $(this).addClass('active');
 
@@ -116,7 +118,7 @@ jQuery(function($){
           }, 1500, 'easeInOutExpo');
         }
 
-        e.preventDefault();
+        
       })
     }
   /* ==================================================
@@ -157,8 +159,8 @@ jQuery(function($){
 
   $(document).ready(function() {
     THEME.fix();
-    THEME.anim(); 
-    THEME.textCenter();
+    //THEME.anim(); 
+    //THEME.textCenter();
     THEME.navigation();
     THEME.scrollToTop();
     THEME.placeholder();

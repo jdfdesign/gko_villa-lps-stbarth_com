@@ -112,6 +112,7 @@ jQuery(document).ready(function() {
     }
 	})
 	.on("ajax:success", function(evt, data, status, xhr) {
+	  console.log("ok")
     jQuery('span.valid').remove();
     jQuery('#thanks').fadeIn('slow');
     jQuery('input').val('');
