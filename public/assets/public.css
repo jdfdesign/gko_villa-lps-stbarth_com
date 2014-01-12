@@ -386,7 +386,7 @@ html {
 /* line 22, ../../app/assets/stylesheets/bootstrap.3.0.2/_scaffolding.scss */
 body {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.42857;
   color: #505050;
   background-color: #eeeeee;
@@ -457,8 +457,8 @@ img {
 
 /* line 98, ../../app/assets/stylesheets/bootstrap.3.0.2/_scaffolding.scss */
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -477,20 +477,20 @@ hr {
 
 /* line 9, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 p {
-  margin: 0 0 10px;
+  margin: 0 0 9px;
 }
 
 /* line 12, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 .lead {
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-bottom: 18px;
+  font-size: 14px;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   /* line 12, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
   .lead {
-    font-size: 21px;
+    font-size: 19.5px;
   }
 }
 
@@ -602,8 +602,8 @@ h6 .small,
 h1,
 h2,
 h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 18px;
+  margin-bottom: 9px;
 }
 /* line 100, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h1 small,
@@ -619,8 +619,8 @@ h3 .small {
 h4,
 h5,
 h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 /* line 111, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h4 small,
@@ -634,27 +634,27 @@ h6 .small {
 
 /* line 116, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h1, .h1 {
-  font-size: 36px;
+  font-size: 33px;
 }
 
 /* line 117, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h2, .h2 {
-  font-size: 30px;
+  font-size: 27px;
 }
 
 /* line 118, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h3, .h3 {
-  font-size: 24px;
+  font-size: 23px;
 }
 
 /* line 119, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h4, .h4 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 /* line 120, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 h5, .h5 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 121, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
@@ -664,8 +664,8 @@ h6, .h6 {
 
 /* line 127, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
+  padding-bottom: 8px;
+  margin: 36px 0 18px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -673,7 +673,7 @@ h6, .h6 {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 /* line 144, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 ul ul,
@@ -707,7 +707,7 @@ ol ol {
 
 /* line 175, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 dl {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 /* line 179, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
@@ -726,7 +726,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 196, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
   .dl-horizontal dt {
     float: left;
@@ -768,13 +768,13 @@ abbr.initialism {
 
 /* line 226, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
+  padding: 9px 18px;
+  margin: 0 0 18px;
   border-left: 5px solid #eeeeee;
 }
 /* line 230, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 blockquote p {
-  font-size: 17.5px;
+  font-size: 16.25px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -824,7 +824,7 @@ blockquote:after {
 
 /* line 277, ../../app/assets/stylesheets/bootstrap.3.0.2/_type.scss */
 address {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-style: normal;
   line-height: 1.42857;
 }
@@ -850,9 +850,9 @@ code {
 /* line 25, ../../app/assets/stylesheets/bootstrap.3.0.2/_code.scss */
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
+  padding: 8.5px;
+  margin: 0 0 9px;
+  font-size: 12px;
   line-height: 1.42857;
   word-break: break-all;
   word-wrap: break-word;
@@ -1993,7 +1993,7 @@ th {
 /* line 17, ../../app/assets/stylesheets/bootstrap.3.0.2/_tables.scss */
 .table, .copy-text table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 /* line 26, ../../app/assets/stylesheets/bootstrap.3.0.2/_tables.scss */
 .table > thead > tr > th, .copy-text table > thead > tr > th,
@@ -2208,7 +2208,7 @@ table th[class*="col-"] {
   /* line 183, ../../app/assets/stylesheets/bootstrap.3.0.2/_tables.scss */
   .table-responsive {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 13.5px;
     overflow-y: hidden;
     overflow-x: scroll;
     -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -2275,8 +2275,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 18px;
+  font-size: 19.5px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -2342,7 +2342,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.42857;
   color: #555555;
   vertical-align: middle;
@@ -2352,9 +2352,9 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: 32px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.42857;
   color: #555555;
   vertical-align: middle;
@@ -2411,7 +2411,7 @@ textarea.form-control {
 .radio,
 .checkbox {
   display: block;
-  min-height: 20px;
+  min-height: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -2504,9 +2504,9 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
-  height: 45px;
+  height: 44px;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.33;
   border-radius: 0;
 }
@@ -2515,8 +2515,8 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn {
-  height: 45px;
-  line-height: 45px;
+  height: 44px;
+  line-height: 44px;
 }
 
 /* line 854, ../../app/assets/stylesheets/bootstrap.3.0.2/_mixins.scss */
@@ -2701,7 +2701,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.42857;
   border-radius: 0;
   -webkit-user-select: none;
@@ -3016,7 +3016,7 @@ fieldset[disabled] .btn-info.active {
 /* line 127, ../../app/assets/stylesheets/bootstrap.3.0.2/_buttons.scss */
 .btn-lg {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.33;
   border-radius: 0;
 }
@@ -4141,7 +4141,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 13px;
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4158,7 +4158,7 @@ input[type="button"].btn-block {
 /* line 55, ../../app/assets/stylesheets/bootstrap.3.0.2/_dropdowns.scss */
 .dropdown-menu .divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 8px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4251,7 +4251,7 @@ input[type="button"].btn-block {
   margin-bottom: 1px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 182, ../../app/assets/stylesheets/bootstrap.3.0.2/_dropdowns.scss */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4405,7 +4405,7 @@ input[type="button"].btn-block {
 /* line 133, ../../app/assets/stylesheets/bootstrap.3.0.2/_button-groups.scss */
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.33;
   border-radius: 0;
 }
@@ -4578,7 +4578,7 @@ input[type="button"].btn-block {
 /* line 59, ../../app/assets/stylesheets/bootstrap.3.0.2/_input-groups.scss */
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1;
   color: #555555;
@@ -4600,7 +4600,7 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 17px;
   border-radius: 0;
 }
 /* line 84, ../../app/assets/stylesheets/bootstrap.3.0.2/_input-groups.scss */
@@ -4723,7 +4723,7 @@ input[type="button"].btn-block {
 /* line 64, ../../app/assets/stylesheets/bootstrap.3.0.2/_navs.scss */
 .nav .nav-divider {
   height: 1px;
-  margin: 9px 0;
+  margin: 8px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4905,7 +4905,7 @@ input[type="button"].btn-block {
 /* line 11, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar {
   position: relative;
-  min-height: 120px;
+  min-height: 107px;
   margin-bottom: 0;
   border: 1px solid transparent;
 }
@@ -4920,7 +4920,7 @@ input[type="button"].btn-block {
 .navbar:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 11, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar {
     border-radius: 0;
@@ -4938,7 +4938,7 @@ input[type="button"].btn-block {
 .navbar-header:after {
   clear: both;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 31, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-header {
     float: left;
@@ -4970,7 +4970,7 @@ input[type="button"].btn-block {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 50, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-collapse {
     width: auto;
@@ -5008,7 +5008,7 @@ input[type="button"].btn-block {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 99, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .container > .navbar-header,
   .container > .navbar-collapse {
@@ -5022,7 +5022,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 117, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-static-top {
     border-radius: 0;
@@ -5037,7 +5037,7 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 128, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-fixed-top,
   .navbar-fixed-bottom {
@@ -5061,15 +5061,15 @@ input[type="button"].btn-block {
 /* line 152, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 50px 15px;
-  font-size: 18px;
-  line-height: 20px;
+  padding: 44.5px 15px;
+  font-size: 17px;
+  line-height: 18px;
 }
 /* line 159, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 164, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar > .container .navbar-brand {
     margin-left: -15px;
@@ -5082,8 +5082,8 @@ input[type="button"].btn-block {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 43px;
-  margin-bottom: 43px;
+  margin-top: 36.5px;
+  margin-bottom: 36.5px;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0;
@@ -5099,7 +5099,7 @@ input[type="button"].btn-block {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 176, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-toggle {
     display: none;
@@ -5108,13 +5108,13 @@ input[type="button"].btn-block {
 
 /* line 208, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-nav {
-  margin: 25px -15px;
+  margin: 22.25px -15px;
 }
 /* line 211, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  line-height: 18px;
 }
 @media (max-width: 767px) {
   /* line 219, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
@@ -5134,14 +5134,14 @@ input[type="button"].btn-block {
   }
   /* line 231, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 18px;
   }
   /* line 234, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 208, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-nav {
     float: left;
@@ -5153,12 +5153,12 @@ input[type="button"].btn-block {
   }
   /* line 248, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 44.5px;
+    padding-bottom: 44.5px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 265, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-left {
     float: left !important;
@@ -5178,8 +5178,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 43px;
-  margin-bottom: 43px;
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
 }
 @media (max-width: 767px) {
   /* line 291, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
@@ -5187,7 +5187,7 @@ input[type="button"].btn-block {
     margin-bottom: 5px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 279, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-form {
     width: auto;
@@ -5223,16 +5223,16 @@ input[type="button"].btn-block {
 
 /* line 337, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-btn {
-  margin-top: 43px;
-  margin-bottom: 43px;
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
 }
 
 /* line 346, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
 .navbar-text {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 44.5px;
+  margin-bottom: 44.5px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   /* line 346, ../../app/assets/stylesheets/bootstrap.3.0.2/_navbar.scss */
   .navbar-text {
     float: left;
@@ -5457,7 +5457,7 @@ input[type="button"].btn-block {
 /* line 6, ../../app/assets/stylesheets/bootstrap.3.0.2/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   list-style: none;
   background-color: whitesmoke;
   border-radius: 0;
@@ -5481,7 +5481,7 @@ input[type="button"].btn-block {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 20px 0;
+  margin: 18px 0;
   border-radius: 0;
 }
 /* line 10, ../../app/assets/stylesheets/bootstrap.3.0.2/_pagination.scss */
@@ -5547,7 +5547,7 @@ input[type="button"].btn-block {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 17px;
 }
 /* line 516, ../../app/assets/stylesheets/bootstrap.3.0.2/_mixins.scss */
 .pagination-lg > li:first-child > a,
@@ -5584,7 +5584,7 @@ input[type="button"].btn-block {
 /* line 6, ../../app/assets/stylesheets/bootstrap.3.0.2/_pager.scss */
 .pager {
   padding-left: 0;
-  margin: 20px 0;
+  margin: 18px 0;
   list-style: none;
   text-align: center;
 }
@@ -5765,7 +5765,7 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 200;
   line-height: 2.14286;
   color: inherit;
@@ -5797,14 +5797,14 @@ a.list-group-item.active > .badge,
   }
   /* line 36, ../../app/assets/stylesheets/bootstrap.3.0.2/_jumbotron.scss */
   .jumbotron h1 {
-    font-size: 63px;
+    font-size: 58.5px;
   }
 }
 
 /* line 7, ../../app/assets/stylesheets/bootstrap.3.0.2/_thumbnails.scss */
 .thumbnail {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 /* line 12, ../../app/assets/stylesheets/bootstrap.3.0.2/_thumbnails.scss */
 .thumbnail > img {
@@ -5830,7 +5830,7 @@ a.thumbnail.active {
 /* line 9, ../../app/assets/stylesheets/bootstrap.3.0.2/_alerts.scss */
 .alert {
   padding: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   border: 1px solid transparent;
   border-radius: 0;
 }
@@ -5952,8 +5952,8 @@ a.thumbnail.active {
 /* line 27, ../../app/assets/stylesheets/bootstrap.3.0.2/_progress-bars.scss */
 .progress {
   overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
+  height: 18px;
+  margin-bottom: 18px;
   background-color: whitesmoke;
   border-radius: 0;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -5966,7 +5966,7 @@ a.thumbnail.active {
   width: 0%;
   height: 100%;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 18px;
   color: white;
   text-align: center;
   background-color: #4dc8e0;
@@ -6174,7 +6174,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 
 /* line 7, ../../app/assets/stylesheets/bootstrap.3.0.2/_panels.scss */
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   background-color: #eeeeee;
   border: 1px solid transparent;
   border-radius: 0;
@@ -6297,7 +6297,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 /* line 109, ../../app/assets/stylesheets/bootstrap.3.0.2/_panels.scss */
 .panel-title > a {
@@ -6510,17 +6510,17 @@ a.list-group-item:hover, a.list-group-item:focus {
 /* line 6, ../../app/assets/stylesheets/bootstrap.3.0.2/_close.scss */
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 19.5px;
   font-weight: bold;
   line-height: 1;
-  color: black;
-  text-shadow: 0 1px 0 white;
+  color: white;
+  text-shadow: none;
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
 /* line 16, ../../app/assets/stylesheets/bootstrap.3.0.2/_close.scss */
 .close:hover, .close:focus {
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.5;
@@ -6617,7 +6617,7 @@ button.close {
 /* line 74, ../../app/assets/stylesheets/bootstrap.3.0.2/_modals.scss */
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #2d2d2d;
   min-height: 16.42857px;
 }
 
@@ -6643,7 +6643,7 @@ button.close {
   margin-top: 15px;
   padding: 19px 20px 20px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #2d2d2d;
 }
 /* line 21, ../../app/assets/stylesheets/bootstrap.3.0.2/_mixins.scss */
 .modal-footer:before, .modal-footer:after {
@@ -6842,7 +6842,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -7750,12 +7750,2334 @@ td.visible-print {
     display: none !important;
   }
 }
+/*!
+ *  Font Awesome 3.2.1
+ *  the iconic font designed for Bootstrap
+ *  ------------------------------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation can be
+ *  found at http://fontawesome.io.  Stay up to date on Twitter at
+ *  http://twitter.com/fontawesome.
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - The Font Awesome font is licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Author - Dave Gandy
+ *  ------------------------------------------------------------------------------
+ *  Email: dave@fontawesome.io
+ *  Twitter: http://twitter.com/byscuits
+ *  Work: Lead Product Designer @ Kyruus - http://kyruus.com
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/fontawesome-webfont.eot");
+  src: url("/assets/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fontawesome-webfont.woff") format("woff"), url("/assets/fontawesome-webfont.ttf") format("truetype"), url("/assets/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FONT AWESOME CORE
+ * -------------------------- */
+/* line 39, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+
+/* line 48, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 54, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
+}
+
+/* makes sure icons active on rollover in links */
+/* line 60, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline;
+}
+
+/* increased font size for icon-large */
+/* line 65, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"].icon-fixed-width,
+[class*=" icon-"].icon-fixed-width {
+  display: inline-block;
+  width: 1.1428571428571428em;
+  text-align: right;
+  padding-right: 0.2857142857142857em;
+}
+
+/* line 72, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"].icon-fixed-width.icon-large,
+[class*=" icon-"].icon-fixed-width.icon-large {
+  width: 1.4285714285714286em;
+}
+
+/* line 75, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icons-ul {
+  margin-left: 2.142857142857143em;
+  list-style-type: none;
+}
+
+/* line 79, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icons-ul > li {
+  position: relative;
+}
+
+/* line 82, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icons-ul .icon-li {
+  position: absolute;
+  left: -2.142857142857143em;
+  width: 2.142857142857143em;
+  text-align: center;
+  line-height: inherit;
+}
+
+/* line 90, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"].hide,
+[class*=" icon-"].hide {
+  display: none;
+}
+
+/* line 93, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-muted {
+  color: #eeeeee;
+}
+
+/* line 96, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-light {
+  color: #ffffff;
+}
+
+/* line 99, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-dark {
+  color: #333333;
+}
+
+/* line 102, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 109, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-2x {
+  font-size: 2em;
+}
+
+/* line 112, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 118, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-3x {
+  font-size: 3em;
+}
+
+/* line 121, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 127, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-4x {
+  font-size: 4em;
+}
+
+/* line 130, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 136, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-5x {
+  font-size: 5em;
+}
+
+/* line 139, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-5x.icon-border {
+  border-width: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* line 145, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.pull-right {
+  float: right;
+}
+
+/* line 148, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.pull-left {
+  float: left;
+}
+
+/* line 152, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em;
+}
+
+/* line 156, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em;
+}
+
+/* BOOTSTRAP SPECIFIC CLASSES
+ * -------------------------- */
+/* Bootstrap 2.0 sprites.less reset */
+/* line 163, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+
+/* more sprites.less reset */
+/* line 187, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none;
+}
+
+/* keeps Bootstrap styles with and without icons the same */
+/* line 194, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn [class^="icon-"].icon-large,
+.nav [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+
+/* line 200, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn [class^="icon-"].icon-spin,
+.nav [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+
+/* line 210, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.nav-tabs [class^="icon-"],
+.nav-pills [class^="icon-"],
+.nav-tabs [class*=" icon-"],
+.nav-pills [class*=" icon-"],
+.nav-tabs [class^="icon-"].icon-large,
+.nav-pills [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"].icon-large,
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+
+/* line 216, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn [class^="icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em;
+}
+
+/* line 220, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em;
+}
+
+/* line 226, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn.btn-small [class^="icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em;
+}
+
+/* line 230, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0;
+}
+
+/* line 236, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em;
+}
+
+/* line 240, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em;
+}
+
+/* line 244, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em;
+}
+
+/* Fixes alignment in nav lists */
+/* line 249, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.nav-list [class^="icon-"],
+.nav-list [class*=" icon-"] {
+  line-height: inherit;
+}
+
+/* EXTRAS
+ * -------------------------- */
+/* Stacked and layered icon */
+/* line 255, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: -35%;
+}
+
+/* line 264, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stack [class^="icon-"],
+.icon-stack [class*=" icon-"] {
+  display: block;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  line-height: inherit;
+  *line-height: 2em;
+}
+
+/* line 274, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stack .icon-stack-base {
+  font-size: 2em;
+  *line-height: 1em;
+}
+
+/* Animated rotating icon */
+/* line 279, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+/* Prevent stack and spinners from being taken inline when inside a link */
+/* line 288, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+a .icon-stack,
+a .icon-spin {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@-moz-keyframes spin {
+  /* line 293, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 296, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 301, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 304, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 309, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 312, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 317, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 320, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  /* line 325, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 328, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/* Icon rotations and mirroring */
+/* line 333, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rotate-90:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+/* line 341, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rotate-180:before {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+/* line 349, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rotate-270:before {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+/* line 357, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flip-horizontal:before {
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 364, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flip-vertical:before {
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* ensure rotation occurs inside anchor tags */
+/* line 376, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+a .icon-rotate-90:before,
+a .icon-rotate-180:before,
+a .icon-rotate-270:before,
+a .icon-flip-horizontal:before,
+a .icon-flip-vertical:before {
+  display: inline-block;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 381, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-glass:before {
+  content: "\f000";
+}
+
+/* line 384, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-music:before {
+  content: "\f001";
+}
+
+/* line 387, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-search:before {
+  content: "\f002";
+}
+
+/* line 390, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-envelope-alt:before {
+  content: "\f003";
+}
+
+/* line 393, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-heart:before {
+  content: "\f004";
+}
+
+/* line 396, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-star:before {
+  content: "\f005";
+}
+
+/* line 399, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-star-empty:before {
+  content: "\f006";
+}
+
+/* line 402, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-user:before {
+  content: "\f007";
+}
+
+/* line 405, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-film:before {
+  content: "\f008";
+}
+
+/* line 408, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-th-large:before {
+  content: "\f009";
+}
+
+/* line 411, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-th:before {
+  content: "\f00a";
+}
+
+/* line 414, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-th-list:before {
+  content: "\f00b";
+}
+
+/* line 417, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ok:before {
+  content: "\f00c";
+}
+
+/* line 420, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-remove:before {
+  content: "\f00d";
+}
+
+/* line 423, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-zoom-in:before {
+  content: "\f00e";
+}
+
+/* line 426, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-zoom-out:before {
+  content: "\f010";
+}
+
+/* line 430, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-power-off:before,
+.icon-off:before {
+  content: "\f011";
+}
+
+/* line 433, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-signal:before {
+  content: "\f012";
+}
+
+/* line 437, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gear:before,
+.icon-cog:before {
+  content: "\f013";
+}
+
+/* line 440, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-trash:before {
+  content: "\f014";
+}
+
+/* line 443, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-home:before {
+  content: "\f015";
+}
+
+/* line 446, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-file-alt:before {
+  content: "\f016";
+}
+
+/* line 449, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-time:before {
+  content: "\f017";
+}
+
+/* line 452, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-road:before {
+  content: "\f018";
+}
+
+/* line 455, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-download-alt:before {
+  content: "\f019";
+}
+
+/* line 458, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-download:before {
+  content: "\f01a";
+}
+
+/* line 461, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-upload:before {
+  content: "\f01b";
+}
+
+/* line 464, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-inbox:before {
+  content: "\f01c";
+}
+
+/* line 467, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-play-circle:before {
+  content: "\f01d";
+}
+
+/* line 471, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rotate-right:before,
+.icon-repeat:before {
+  content: "\f01e";
+}
+
+/* line 474, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-refresh:before {
+  content: "\f021";
+}
+
+/* line 477, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-list-alt:before {
+  content: "\f022";
+}
+
+/* line 480, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-lock:before {
+  content: "\f023";
+}
+
+/* line 483, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flag:before {
+  content: "\f024";
+}
+
+/* line 486, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-headphones:before {
+  content: "\f025";
+}
+
+/* line 489, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-volume-off:before {
+  content: "\f026";
+}
+
+/* line 492, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-volume-down:before {
+  content: "\f027";
+}
+
+/* line 495, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-volume-up:before {
+  content: "\f028";
+}
+
+/* line 498, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-qrcode:before {
+  content: "\f029";
+}
+
+/* line 501, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-barcode:before {
+  content: "\f02a";
+}
+
+/* line 504, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tag:before {
+  content: "\f02b";
+}
+
+/* line 507, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tags:before {
+  content: "\f02c";
+}
+
+/* line 510, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-book:before {
+  content: "\f02d";
+}
+
+/* line 513, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 516, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-print:before {
+  content: "\f02f";
+}
+
+/* line 519, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-camera:before {
+  content: "\f030";
+}
+
+/* line 522, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-font:before {
+  content: "\f031";
+}
+
+/* line 525, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bold:before {
+  content: "\f032";
+}
+
+/* line 528, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-italic:before {
+  content: "\f033";
+}
+
+/* line 531, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-text-height:before {
+  content: "\f034";
+}
+
+/* line 534, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-text-width:before {
+  content: "\f035";
+}
+
+/* line 537, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-align-left:before {
+  content: "\f036";
+}
+
+/* line 540, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-align-center:before {
+  content: "\f037";
+}
+
+/* line 543, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-align-right:before {
+  content: "\f038";
+}
+
+/* line 546, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-align-justify:before {
+  content: "\f039";
+}
+
+/* line 549, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-list:before {
+  content: "\f03a";
+}
+
+/* line 552, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-indent-left:before {
+  content: "\f03b";
+}
+
+/* line 555, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-indent-right:before {
+  content: "\f03c";
+}
+
+/* line 558, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-facetime-video:before {
+  content: "\f03d";
+}
+
+/* line 561, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-picture:before {
+  content: "\f03e";
+}
+
+/* line 564, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-pencil:before {
+  content: "\f040";
+}
+
+/* line 567, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 570, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-adjust:before {
+  content: "\f042";
+}
+
+/* line 573, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tint:before {
+  content: "\f043";
+}
+
+/* line 576, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-edit:before {
+  content: "\f044";
+}
+
+/* line 579, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-share:before {
+  content: "\f045";
+}
+
+/* line 582, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-check:before {
+  content: "\f046";
+}
+
+/* line 585, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-move:before {
+  content: "\f047";
+}
+
+/* line 588, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-step-backward:before {
+  content: "\f048";
+}
+
+/* line 591, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 594, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-backward:before {
+  content: "\f04a";
+}
+
+/* line 597, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-play:before {
+  content: "\f04b";
+}
+
+/* line 600, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-pause:before {
+  content: "\f04c";
+}
+
+/* line 603, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stop:before {
+  content: "\f04d";
+}
+
+/* line 606, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-forward:before {
+  content: "\f04e";
+}
+
+/* line 609, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 612, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-step-forward:before {
+  content: "\f051";
+}
+
+/* line 615, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-eject:before {
+  content: "\f052";
+}
+
+/* line 618, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 621, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 624, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-plus-sign:before {
+  content: "\f055";
+}
+
+/* line 627, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-minus-sign:before {
+  content: "\f056";
+}
+
+/* line 630, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-remove-sign:before {
+  content: "\f057";
+}
+
+/* line 633, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ok-sign:before {
+  content: "\f058";
+}
+
+/* line 636, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-question-sign:before {
+  content: "\f059";
+}
+
+/* line 639, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-info-sign:before {
+  content: "\f05a";
+}
+
+/* line 642, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-screenshot:before {
+  content: "\f05b";
+}
+
+/* line 645, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-remove-circle:before {
+  content: "\f05c";
+}
+
+/* line 648, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ok-circle:before {
+  content: "\f05d";
+}
+
+/* line 651, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ban-circle:before {
+  content: "\f05e";
+}
+
+/* line 654, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 657, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 660, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 663, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 667, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-mail-forward:before,
+.icon-share-alt:before {
+  content: "\f064";
+}
+
+/* line 670, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-resize-full:before {
+  content: "\f065";
+}
+
+/* line 673, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-resize-small:before {
+  content: "\f066";
+}
+
+/* line 676, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-plus:before {
+  content: "\f067";
+}
+
+/* line 679, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-minus:before {
+  content: "\f068";
+}
+
+/* line 682, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 685, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+/* line 688, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gift:before {
+  content: "\f06b";
+}
+
+/* line 691, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-leaf:before {
+  content: "\f06c";
+}
+
+/* line 694, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fire:before {
+  content: "\f06d";
+}
+
+/* line 697, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-eye-open:before {
+  content: "\f06e";
+}
+
+/* line 700, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-eye-close:before {
+  content: "\f070";
+}
+
+/* line 703, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-warning-sign:before {
+  content: "\f071";
+}
+
+/* line 706, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-plane:before {
+  content: "\f072";
+}
+
+/* line 709, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-calendar:before {
+  content: "\f073";
+}
+
+/* line 712, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-random:before {
+  content: "\f074";
+}
+
+/* line 715, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-comment:before {
+  content: "\f075";
+}
+
+/* line 718, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-magnet:before {
+  content: "\f076";
+}
+
+/* line 721, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 724, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 727, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-retweet:before {
+  content: "\f079";
+}
+
+/* line 730, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 733, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-folder-close:before {
+  content: "\f07b";
+}
+
+/* line 736, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 739, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+/* line 742, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+/* line 745, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 748, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-twitter-sign:before {
+  content: "\f081";
+}
+
+/* line 751, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-facebook-sign:before {
+  content: "\f082";
+}
+
+/* line 754, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 757, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-key:before {
+  content: "\f084";
+}
+
+/* line 761, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gears:before,
+.icon-cogs:before {
+  content: "\f085";
+}
+
+/* line 764, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-comments:before {
+  content: "\f086";
+}
+
+/* line 767, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-thumbs-up-alt:before {
+  content: "\f087";
+}
+
+/* line 770, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-thumbs-down-alt:before {
+  content: "\f088";
+}
+
+/* line 773, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-star-half:before {
+  content: "\f089";
+}
+
+/* line 776, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-heart-empty:before {
+  content: "\f08a";
+}
+
+/* line 779, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-signout:before {
+  content: "\f08b";
+}
+
+/* line 782, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+/* line 785, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-pushpin:before {
+  content: "\f08d";
+}
+
+/* line 788, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-external-link:before {
+  content: "\f08e";
+}
+
+/* line 791, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-signin:before {
+  content: "\f090";
+}
+
+/* line 794, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-trophy:before {
+  content: "\f091";
+}
+
+/* line 797, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-github-sign:before {
+  content: "\f092";
+}
+
+/* line 800, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-upload-alt:before {
+  content: "\f093";
+}
+
+/* line 803, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-lemon:before {
+  content: "\f094";
+}
+
+/* line 806, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-phone:before {
+  content: "\f095";
+}
+
+/* line 810, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-unchecked:before,
+.icon-check-empty:before {
+  content: "\f096";
+}
+
+/* line 813, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+/* line 816, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-phone-sign:before {
+  content: "\f098";
+}
+
+/* line 819, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 822, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 825, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-github:before {
+  content: "\f09b";
+}
+
+/* line 828, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 831, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 834, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rss:before {
+  content: "\f09e";
+}
+
+/* line 837, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hdd:before {
+  content: "\f0a0";
+}
+
+/* line 840, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 843, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bell:before {
+  content: "\f0a2";
+}
+
+/* line 846, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 849, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hand-right:before {
+  content: "\f0a4";
+}
+
+/* line 852, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hand-left:before {
+  content: "\f0a5";
+}
+
+/* line 855, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hand-up:before {
+  content: "\f0a6";
+}
+
+/* line 858, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hand-down:before {
+  content: "\f0a7";
+}
+
+/* line 861, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+/* line 864, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+/* line 867, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+/* line 870, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+/* line 873, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-globe:before {
+  content: "\f0ac";
+}
+
+/* line 876, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 879, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 882, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-filter:before {
+  content: "\f0b0";
+}
+
+/* line 885, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 888, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+/* line 891, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-group:before {
+  content: "\f0c0";
+}
+
+/* line 894, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-link:before {
+  content: "\f0c1";
+}
+
+/* line 897, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 900, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-beaker:before {
+  content: "\f0c3";
+}
+
+/* line 903, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-cut:before {
+  content: "\f0c4";
+}
+
+/* line 906, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-copy:before {
+  content: "\f0c5";
+}
+
+/* line 910, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-paperclip:before,
+.icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+/* line 913, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-save:before {
+  content: "\f0c7";
+}
+
+/* line 916, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+/* line 919, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-reorder:before {
+  content: "\f0c9";
+}
+
+/* line 922, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 925, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 928, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 931, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-underline:before {
+  content: "\f0cd";
+}
+
+/* line 934, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-table:before {
+  content: "\f0ce";
+}
+
+/* line 937, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-magic:before {
+  content: "\f0d0";
+}
+
+/* line 940, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-truck:before {
+  content: "\f0d1";
+}
+
+/* line 943, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 946, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+/* line 949, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+/* line 952, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 955, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 958, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 961, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 964, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 967, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 970, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-columns:before {
+  content: "\f0db";
+}
+
+/* line 973, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort:before {
+  content: "\f0dc";
+}
+
+/* line 976, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+
+/* line 979, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-up:before {
+  content: "\f0de";
+}
+
+/* line 982, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 985, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 989, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rotate-left:before,
+.icon-undo:before {
+  content: "\f0e2";
+}
+
+/* line 992, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-legal:before {
+  content: "\f0e3";
+}
+
+/* line 995, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-dashboard:before {
+  content: "\f0e4";
+}
+
+/* line 998, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+/* line 1001, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+/* line 1004, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 1007, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 1010, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 1013, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-paste:before {
+  content: "\f0ea";
+}
+
+/* line 1016, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-lightbulb:before {
+  content: "\f0eb";
+}
+
+/* line 1019, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 1022, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 1025, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 1028, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 1031, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 1034, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 1037, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bell-alt:before {
+  content: "\f0f3";
+}
+
+/* line 1040, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 1043, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-food:before {
+  content: "\f0f5";
+}
+
+/* line 1046, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-file-text-alt:before {
+  content: "\f0f6";
+}
+
+/* line 1049, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-building:before {
+  content: "\f0f7";
+}
+
+/* line 1052, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-hospital:before {
+  content: "\f0f8";
+}
+
+/* line 1055, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 1058, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 1061, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 1064, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-beer:before {
+  content: "\f0fc";
+}
+
+/* line 1067, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-h-sign:before {
+  content: "\f0fd";
+}
+
+/* line 1070, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-plus-sign-alt:before {
+  content: "\f0fe";
+}
+
+/* line 1073, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-double-angle-left:before {
+  content: "\f100";
+}
+
+/* line 1076, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-double-angle-right:before {
+  content: "\f101";
+}
+
+/* line 1079, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-double-angle-up:before {
+  content: "\f102";
+}
+
+/* line 1082, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-double-angle-down:before {
+  content: "\f103";
+}
+
+/* line 1085, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-angle-left:before {
+  content: "\f104";
+}
+
+/* line 1088, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+/* line 1091, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-angle-up:before {
+  content: "\f106";
+}
+
+/* line 1094, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+/* line 1097, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-desktop:before {
+  content: "\f108";
+}
+
+/* line 1100, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-laptop:before {
+  content: "\f109";
+}
+
+/* line 1103, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tablet:before {
+  content: "\f10a";
+}
+
+/* line 1106, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+/* line 1109, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle-blank:before {
+  content: "\f10c";
+}
+
+/* line 1112, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 1115, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 1118, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-spinner:before {
+  content: "\f110";
+}
+
+/* line 1121, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-circle:before {
+  content: "\f111";
+}
+
+/* line 1125, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-mail-reply:before,
+.icon-reply:before {
+  content: "\f112";
+}
+
+/* line 1128, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-github-alt:before {
+  content: "\f113";
+}
+
+/* line 1131, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-folder-close-alt:before {
+  content: "\f114";
+}
+
+/* line 1134, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-folder-open-alt:before {
+  content: "\f115";
+}
+
+/* line 1137, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-expand-alt:before {
+  content: "\f116";
+}
+
+/* line 1140, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-collapse-alt:before {
+  content: "\f117";
+}
+
+/* line 1143, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-smile:before {
+  content: "\f118";
+}
+
+/* line 1146, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-frown:before {
+  content: "\f119";
+}
+
+/* line 1149, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-meh:before {
+  content: "\f11a";
+}
+
+/* line 1152, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 1155, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-keyboard:before {
+  content: "\f11c";
+}
+
+/* line 1158, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flag-alt:before {
+  content: "\f11d";
+}
+
+/* line 1161, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 1164, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-terminal:before {
+  content: "\f120";
+}
+
+/* line 1167, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-code:before {
+  content: "\f121";
+}
+
+/* line 1170, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-reply-all:before {
+  content: "\f122";
+}
+
+/* line 1173, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-mail-reply-all:before {
+  content: "\f122";
+}
+
+/* line 1177, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-star-half-full:before,
+.icon-star-half-empty:before {
+  content: "\f123";
+}
+
+/* line 1180, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 1183, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-crop:before {
+  content: "\f125";
+}
+
+/* line 1186, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-code-fork:before {
+  content: "\f126";
+}
+
+/* line 1189, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-unlink:before {
+  content: "\f127";
+}
+
+/* line 1192, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-question:before {
+  content: "\f128";
+}
+
+/* line 1195, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-info:before {
+  content: "\f129";
+}
+
+/* line 1198, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 1201, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-superscript:before {
+  content: "\f12b";
+}
+
+/* line 1204, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-subscript:before {
+  content: "\f12c";
+}
+
+/* line 1207, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-eraser:before {
+  content: "\f12d";
+}
+
+/* line 1210, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 1213, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-microphone:before {
+  content: "\f130";
+}
+
+/* line 1216, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-microphone-off:before {
+  content: "\f131";
+}
+
+/* line 1219, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-shield:before {
+  content: "\f132";
+}
+
+/* line 1222, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-calendar-empty:before {
+  content: "\f133";
+}
+
+/* line 1225, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 1228, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rocket:before {
+  content: "\f135";
+}
+
+/* line 1231, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 1234, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-sign-left:before {
+  content: "\f137";
+}
+
+/* line 1237, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-sign-right:before {
+  content: "\f138";
+}
+
+/* line 1240, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-sign-up:before {
+  content: "\f139";
+}
+
+/* line 1243, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-chevron-sign-down:before {
+  content: "\f13a";
+}
+
+/* line 1246, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-html5:before {
+  content: "\f13b";
+}
+
+/* line 1249, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-css3:before {
+  content: "\f13c";
+}
+
+/* line 1252, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-anchor:before {
+  content: "\f13d";
+}
+
+/* line 1255, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 1258, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bullseye:before {
+  content: "\f140";
+}
+
+/* line 1261, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ellipsis-horizontal:before {
+  content: "\f141";
+}
+
+/* line 1264, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ellipsis-vertical:before {
+  content: "\f142";
+}
+
+/* line 1267, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rss-sign:before {
+  content: "\f143";
+}
+
+/* line 1270, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-play-sign:before {
+  content: "\f144";
+}
+
+/* line 1273, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-ticket:before {
+  content: "\f145";
+}
+
+/* line 1276, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-minus-sign-alt:before {
+  content: "\f146";
+}
+
+/* line 1279, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-check-minus:before {
+  content: "\f147";
+}
+
+/* line 1282, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-level-up:before {
+  content: "\f148";
+}
+
+/* line 1285, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-level-down:before {
+  content: "\f149";
+}
+
+/* line 1288, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-check-sign:before {
+  content: "\f14a";
+}
+
+/* line 1291, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-edit-sign:before {
+  content: "\f14b";
+}
+
+/* line 1294, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-external-link-sign:before {
+  content: "\f14c";
+}
+
+/* line 1297, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-share-sign:before {
+  content: "\f14d";
+}
+
+/* line 1300, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-compass:before {
+  content: "\f14e";
+}
+
+/* line 1303, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-collapse:before {
+  content: "\f150";
+}
+
+/* line 1306, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-collapse-top:before {
+  content: "\f151";
+}
+
+/* line 1309, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-expand:before {
+  content: "\f152";
+}
+
+/* line 1313, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-euro:before,
+.icon-eur:before {
+  content: "\f153";
+}
+
+/* line 1316, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gbp:before {
+  content: "\f154";
+}
+
+/* line 1320, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-dollar:before,
+.icon-usd:before {
+  content: "\f155";
+}
+
+/* line 1324, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-rupee:before,
+.icon-inr:before {
+  content: "\f156";
+}
+
+/* line 1328, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-yen:before,
+.icon-jpy:before {
+  content: "\f157";
+}
+
+/* line 1332, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-renminbi:before,
+.icon-cny:before {
+  content: "\f158";
+}
+
+/* line 1336, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-won:before,
+.icon-krw:before {
+  content: "\f159";
+}
+
+/* line 1340, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bitcoin:before,
+.icon-btc:before {
+  content: "\f15a";
+}
+
+/* line 1343, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-file:before {
+  content: "\f15b";
+}
+
+/* line 1346, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-file-text:before {
+  content: "\f15c";
+}
+
+/* line 1349, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-alphabet:before {
+  content: "\f15d";
+}
+
+/* line 1352, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-alphabet-alt:before {
+  content: "\f15e";
+}
+
+/* line 1355, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-attributes:before {
+  content: "\f160";
+}
+
+/* line 1358, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-attributes-alt:before {
+  content: "\f161";
+}
+
+/* line 1361, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-order:before {
+  content: "\f162";
+}
+
+/* line 1364, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sort-by-order-alt:before {
+  content: "\f163";
+}
+
+/* line 1367, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 1370, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 1373, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-youtube-sign:before {
+  content: "\f166";
+}
+
+/* line 1376, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-youtube:before {
+  content: "\f167";
+}
+
+/* line 1379, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-xing:before {
+  content: "\f168";
+}
+
+/* line 1382, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-xing-sign:before {
+  content: "\f169";
+}
+
+/* line 1385, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 1388, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 1391, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-stackexchange:before {
+  content: "\f16c";
+}
+
+/* line 1394, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-instagram:before {
+  content: "\f16d";
+}
+
+/* line 1397, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-flickr:before {
+  content: "\f16e";
+}
+
+/* line 1400, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-adn:before {
+  content: "\f170";
+}
+
+/* line 1403, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 1406, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bitbucket-sign:before {
+  content: "\f172";
+}
+
+/* line 1409, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tumblr:before {
+  content: "\f173";
+}
+
+/* line 1412, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-tumblr-sign:before {
+  content: "\f174";
+}
+
+/* line 1415, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 1418, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 1421, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 1424, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 1427, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-apple:before {
+  content: "\f179";
+}
+
+/* line 1430, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-windows:before {
+  content: "\f17a";
+}
+
+/* line 1433, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-android:before {
+  content: "\f17b";
+}
+
+/* line 1436, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-linux:before {
+  content: "\f17c";
+}
+
+/* line 1439, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 1442, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-skype:before {
+  content: "\f17e";
+}
+
+/* line 1445, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-foursquare:before {
+  content: "\f180";
+}
+
+/* line 1448, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-trello:before {
+  content: "\f181";
+}
+
+/* line 1451, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-female:before {
+  content: "\f182";
+}
+
+/* line 1454, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-male:before {
+  content: "\f183";
+}
+
+/* line 1457, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-gittip:before {
+  content: "\f184";
+}
+
+/* line 1460, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-sun:before {
+  content: "\f185";
+}
+
+/* line 1463, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-moon:before {
+  content: "\f186";
+}
+
+/* line 1466, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-archive:before {
+  content: "\f187";
+}
+
+/* line 1469, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-bug:before {
+  content: "\f188";
+}
+
+/* line 1472, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-vk:before {
+  content: "\f189";
+}
+
+/* line 1475, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-weibo:before {
+  content: "\f18a";
+}
+
+/* line 1478, ../../app/assets/stylesheets/font-awesome-3.2.1/font-awesome.css.erb */
+.icon-renren:before {
+  content: "\f18b";
+}
+
 /* COPYRIGHT
 -------------------------------------------------- */
 /* line 4, ../../app/assets/stylesheets/_footer.scss */
 #copyright .container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 /* line 8, ../../app/assets/stylesheets/_footer.scss */
 #copyright p {
@@ -7875,73 +10197,36 @@ h1, h2, h3, h4, h5, h6,
   color: #4dc8e0;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-/* Carousel base class */
-/* line 98, ../../app/assets/stylesheets/public.css.scss */
-.carousel {
-  margin-bottom: 0;
-  max-width: none;
-  background-color: #505050;
-  overflow: hidden;
-}
-
-/* Declare heights because of positioning of img element */
-/* line 105, ../../app/assets/stylesheets/public.css.scss */
-.carousel .item {
-  background-color: #505050;
-}
-
-/* line 108, ../../app/assets/stylesheets/public.css.scss */
-.carousel-inner > .item > img {
-  min-width: 100%;
-}
-
-@media (min-width: 992px) {
-  /* Bump up heights of carousel item */
-  /* line 139, ../../app/assets/stylesheets/public.css.scss */
-  .carousel .item {
-    max-height: 700px;
-  }
-
-  /* Bump up size of carousel content */
-  /* line 144, ../../app/assets/stylesheets/public.css.scss */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-/* line 160, ../../app/assets/stylesheets/public.css.scss */
+/* line 96, ../../app/assets/stylesheets/public.css.scss */
 body {
-  padding-top: 120px;
+  padding-top: 107px;
 }
 
-/* line 163, ../../app/assets/stylesheets/public.css.scss */
+/* line 99, ../../app/assets/stylesheets/public.css.scss */
 .navbar.navbar-default {
   border-bottom-color: #ccc;
 }
 
-/* line 167, ../../app/assets/stylesheets/public.css.scss */
+/* line 103, ../../app/assets/stylesheets/public.css.scss */
 .navbar-brand {
-  padding-top: 10.5px;
-  padding-bottom: 10.5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-/* line 174, ../../app/assets/stylesheets/public.css.scss */
+/* line 110, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav > li > a {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
 }
-/* line 182, ../../app/assets/stylesheets/public.css.scss */
+/* line 118, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav .dropdown > a .caret {
   display: none;
 }
-/* line 185, ../../app/assets/stylesheets/public.css.scss */
+/* line 121, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav .dropdown .dropdown-menu {
   display: block;
   position: static;
@@ -7952,29 +10237,29 @@ body {
   border: 0;
   box-shadow: none;
 }
-/* line 195, ../../app/assets/stylesheets/public.css.scss */
+/* line 131, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav .dropdown .dropdown-menu > li > a,
 .navbar-nav .dropdown .dropdown-menu .dropdown-header {
   padding: 5px 15px 5px 25px;
 }
-/* line 198, ../../app/assets/stylesheets/public.css.scss */
+/* line 134, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav .dropdown .dropdown-menu > li > a {
-  line-height: 20px;
+  line-height: 18px;
 }
-/* line 201, ../../app/assets/stylesheets/public.css.scss */
+/* line 137, ../../app/assets/stylesheets/public.css.scss */
 .navbar-nav .dropdown .dropdown-menu > li > a:hover, .navbar-nav .dropdown .dropdown-menu > li > a:focus {
   background-image: none;
 }
-@media (min-width: 992px) {
-  /* line 172, ../../app/assets/stylesheets/public.css.scss */
+@media (min-width: 768px) {
+  /* line 108, ../../app/assets/stylesheets/public.css.scss */
   .navbar-nav {
     float: right !important;
   }
-  /* line 211, ../../app/assets/stylesheets/public.css.scss */
+  /* line 147, ../../app/assets/stylesheets/public.css.scss */
   .navbar-nav .dropdown > a .caret {
     display: inline-block;
   }
-  /* line 214, ../../app/assets/stylesheets/public.css.scss */
+  /* line 150, ../../app/assets/stylesheets/public.css.scss */
   .navbar-nav .dropdown .dropdown-menu {
     position: absolute;
     display: none;
@@ -7986,28 +10271,28 @@ body {
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   }
-  /* line 225, ../../app/assets/stylesheets/public.css.scss */
+  /* line 161, ../../app/assets/stylesheets/public.css.scss */
   .navbar-nav .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
 
-/* line 233, ../../app/assets/stylesheets/public.css.scss */
+/* line 169, ../../app/assets/stylesheets/public.css.scss */
 #locales-menu {
   position: absolute;
   right: 0;
   top: 0;
 }
-/* line 237, ../../app/assets/stylesheets/public.css.scss */
+/* line 173, ../../app/assets/stylesheets/public.css.scss */
 #locales-menu .nav > li > a {
   background-color: #4dc8e0;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 9px;
+  font-size: 8px;
   padding: 4px 8px;
 }
-/* line 245, ../../app/assets/stylesheets/public.css.scss */
+/* line 181, ../../app/assets/stylesheets/public.css.scss */
 #locales-menu .nav > li > a:hover, #locales-menu .nav > li > a:focus {
   background-color: #78d5e8;
   color: white;
@@ -8015,58 +10300,69 @@ body {
 
 /* CUSTOMIZE ARTICLES
 -------------------------------------------------- */
-/* line 255, ../../app/assets/stylesheets/public.css.scss */
+/* line 191, ../../app/assets/stylesheets/public.css.scss */
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 54px;
+  padding-bottom: 54px;
   text-align: left;
   background-color: #eeeeee;
 }
-/* line 260, ../../app/assets/stylesheets/public.css.scss */
+/* line 196, ../../app/assets/stylesheets/public.css.scss */
 .section hr {
   margin-top: 0;
   padding-top: 0;
   border-top-color: #4dc8e0;
 }
-/* line 265, ../../app/assets/stylesheets/public.css.scss */
+/* line 201, ../../app/assets/stylesheets/public.css.scss */
 .section strong {
   color: #000;
 }
-/* line 268, ../../app/assets/stylesheets/public.css.scss */
+/* line 204, ../../app/assets/stylesheets/public.css.scss */
 .section h2 {
   margin-bottom: 0;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   border-bottom: 4px solid #4dc8e0;
   display: inline-block;
 }
 
-/* line 276, ../../app/assets/stylesheets/public.css.scss */
+/* line 212, ../../app/assets/stylesheets/public.css.scss */
 .section:nth-child(2n+1) {
   background-color: #fff;
 }
 
-/* line 279, ../../app/assets/stylesheets/public.css.scss */
+/* line 215, ../../app/assets/stylesheets/public.css.scss */
 .section.contact {
   background-color: #2d2d2d;
   color: #999999;
 }
-/* line 282, ../../app/assets/stylesheets/public.css.scss */
+/* line 218, ../../app/assets/stylesheets/public.css.scss */
 .section.contact .page-title {
   color: #fff;
 }
 
-/* line 287, ../../app/assets/stylesheets/public.css.scss */
-.copy-text {
-  font-size: 17px;
-  line-height: 30px;
-  font-weight: 400;
+/* line 224, ../../app/assets/stylesheets/public.css.scss */
+.copy-text ul {
+  list-style: disc outside;
+  margin-left: 30px;
 }
-/* line 293, ../../app/assets/stylesheets/public.css.scss */
+/* line 225, ../../app/assets/stylesheets/public.css.scss */
+.copy-text ol {
+  margin-left: 30px;
+}
+/* line 226, ../../app/assets/stylesheets/public.css.scss */
 .copy-text table {
   text-align: left;
 }
+@media (min-width: 768px) {
+  /* line 223, ../../app/assets/stylesheets/public.css.scss */
+  .copy-text {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+}
 
-/* line 299, ../../app/assets/stylesheets/public.css.scss */
+/* line 237, ../../app/assets/stylesheets/public.css.scss */
 .page-title {
   text-align: center;
   text-transform: uppercase;
@@ -8081,12 +10377,12 @@ body {
   margin-right: auto;
 }
 
-/* line 314, ../../app/assets/stylesheets/public.css.scss */
+/* line 252, ../../app/assets/stylesheets/public.css.scss */
 .post-title {
   text-transform: uppercase;
   font-size: 11px;
   margin: 0;
-  padding: 20px 8px;
+  padding: 18px 8px;
   letter-spacing: 2px;
   text-align: center;
   overflow: hidden;
@@ -8094,59 +10390,64 @@ body {
   white-space: nowrap;
 }
 
-/* line 324, ../../app/assets/stylesheets/public.css.scss */
+/* line 262, ../../app/assets/stylesheets/public.css.scss */
 .post-image {
   position: relative;
   padding: 0;
   margin: 0;
 }
 
-/* line 329, ../../app/assets/stylesheets/public.css.scss */
+/* line 267, ../../app/assets/stylesheets/public.css.scss */
 .post-item:hover {
   background-color: #4dc8e0;
 }
-/* line 331, ../../app/assets/stylesheets/public.css.scss */
+/* line 269, ../../app/assets/stylesheets/public.css.scss */
 .post-item:hover .post-image {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 334, ../../app/assets/stylesheets/public.css.scss */
+/* line 272, ../../app/assets/stylesheets/public.css.scss */
 .post-item:hover .post-title {
   color: #fff;
 }
 
 /* MODAL STYLES
 -------------------------------------------------- */
-/* line 341, ../../app/assets/stylesheets/public.css.scss */
+/* line 279, ../../app/assets/stylesheets/public.css.scss */
 .modal-header {
-  border-bottom-color: #2d2d2d;
   color: #999999;
 }
-/* line 344, ../../app/assets/stylesheets/public.css.scss */
+/* line 281, ../../app/assets/stylesheets/public.css.scss */
 .modal-header .close {
-  color: #999999;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+/* line 283, ../../app/assets/stylesheets/public.css.scss */
+.modal-header .close:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
 }
 
 /* CONTACT STYLES
 -------------------------------------------------- */
-/* line 351, ../../app/assets/stylesheets/public.css.scss */
+/* line 291, ../../app/assets/stylesheets/public.css.scss */
 #contact_us {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 54px;
+  padding-bottom: 54px;
 }
-/* line 355, ../../app/assets/stylesheets/public.css.scss */
+/* line 295, ../../app/assets/stylesheets/public.css.scss */
 #contact_us form {
   margin-top: 2em;
 }
 
-/* line 360, ../../app/assets/stylesheets/public.css.scss */
+/* line 300, ../../app/assets/stylesheets/public.css.scss */
 .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 363, ../../app/assets/stylesheets/public.css.scss */
+/* line 303, ../../app/assets/stylesheets/public.css.scss */
 .form-control:focus {
   border-color: none;
   outline: 0;
@@ -8155,25 +10456,25 @@ body {
   background: #e6e6e6;
 }
 
-/* line 370, ../../app/assets/stylesheets/public.css.scss */
+/* line 310, ../../app/assets/stylesheets/public.css.scss */
 input {
   color: #1a1a1a;
   font-weight: normal;
 }
 
-/* line 374, ../../app/assets/stylesheets/public.css.scss */
+/* line 314, ../../app/assets/stylesheets/public.css.scss */
 input[type="text"] {
   margin-bottom: 15px;
   height: 40px;
 }
 
-/* line 377, ../../app/assets/stylesheets/public.css.scss */
+/* line 317, ../../app/assets/stylesheets/public.css.scss */
 textarea.form-control {
   height: 120px;
   resize: none;
 }
 
-/* line 382, ../../app/assets/stylesheets/public.css.scss */
+/* line 322, ../../app/assets/stylesheets/public.css.scss */
 #contact_us .btn {
   width: 100%;
   margin-top: 1em;
@@ -8185,25 +10486,25 @@ textarea.form-control {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* line 391, ../../app/assets/stylesheets/public.css.scss */
+/* line 331, ../../app/assets/stylesheets/public.css.scss */
 #contact_us .btn:hover {
   background-color: #78d5e8;
   color: white;
 }
 
-/* line 396, ../../app/assets/stylesheets/public.css.scss */
+/* line 336, ../../app/assets/stylesheets/public.css.scss */
 .formContainer {
   position: relative;
 }
 
-/* line 399, ../../app/assets/stylesheets/public.css.scss */
+/* line 339, ../../app/assets/stylesheets/public.css.scss */
 span.error, span.valid {
   position: absolute;
   top: 0;
   right: 1em;
 }
 
-/* line 400, ../../app/assets/stylesheets/public.css.scss */
+/* line 340, ../../app/assets/stylesheets/public.css.scss */
 span.error, span.valid {
   width: 40px;
   height: 40px;
@@ -8212,17 +10513,17 @@ span.error, span.valid {
   background-repeat: no-repeat;
 }
 
-/* line 401, ../../app/assets/stylesheets/public.css.scss */
+/* line 341, ../../app/assets/stylesheets/public.css.scss */
 span.error {
   background-image: "/assets/notifications/error.svg";
 }
 
-/* line 402, ../../app/assets/stylesheets/public.css.scss */
+/* line 342, ../../app/assets/stylesheets/public.css.scss */
 span.valid {
   background-image: "/assets/notifications/valid.svg";
 }
 
-/* line 404, ../../app/assets/stylesheets/public.css.scss */
+/* line 344, ../../app/assets/stylesheets/public.css.scss */
 .alert {
   display: none;
   border: 0;
@@ -8231,7 +10532,7 @@ span.valid {
   color: white;
 }
 
-/* line 405, ../../app/assets/stylesheets/public.css.scss */
+/* line 345, ../../app/assets/stylesheets/public.css.scss */
 .alert-success {
   background-color: #22b573;
   color: white;

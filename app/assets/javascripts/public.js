@@ -103,16 +103,6 @@ jQuery(function($){
       
       $('.navbar-nav li').on("click", function(e) {
         var target = $("#" + $(this).attr('id') + "_page");
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-         e.preventDefault();
-console.log(target.offset())
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
-=======
-         e.preventDefault();
-console.log(target.offset())
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
         $(this).parent().find('li').removeClass('active');
         $(this).addClass('active');
 
@@ -125,16 +115,7 @@ console.log(target.offset())
             scrollTop: target.offset().top - 52
           }, 1500, 'easeInOutExpo');
         }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
         e.preventDefault();
-=======
-        
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
-=======
-        
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
       })
     }
   /* ==================================================

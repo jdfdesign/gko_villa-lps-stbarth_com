@@ -238,15 +238,7 @@ $grid-float-breakpoint:     $screen-tablet;//$screen-desktop;
 // -------------------------
 
 // Basics of a navbar
-<<<<<<< HEAD
-<<<<<<< HEAD
 $navbar-height:                    $th-brand-logo-height + 8px;
-=======
-$navbar-height:                    120px;//$th-brand-logo-height;//50px;
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
-=======
-$navbar-height:                    120px;//$th-brand-logo-height;//50px;
->>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
 $navbar-margin-bottom:             0;
 $navbar-default-color:             #777;
 $navbar-default-bg:                #fff;
@@ -442,7 +434,7 @@ $modal-content-border-color:                   rgba(0,0,0,.2);
 $modal-content-fallback-border-color:          #999;
 
 $modal-backdrop-bg:           #000;
-$modal-header-border-color:   #e5e5e5;
+$modal-header-border-color:   #2d2d2d;//#e5e5e5;
 $modal-footer-border-color:   $modal-header-border-color;
 
 
@@ -583,9 +575,9 @@ $carousel-caption-color:                      #fff;
 
 // Close
 // ------------------------
-$close-color:                 #000;
+$close-color:                 #fff;//#000;
 $close-font-weight:           bold;
-$close-text-shadow:           0 1px 0 #fff;
+$close-text-shadow:           none;//0 1px 0 #fff;
 
 
 // Code
