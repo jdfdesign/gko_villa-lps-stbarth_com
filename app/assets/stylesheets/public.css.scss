@@ -9,12 +9,18 @@ Author URI:         http://joufdesign.com
 
 /* THEME VARIABLES
 -------------------------------------------------- */
+$th-primary-color: #4dc8e0;
+$th-brand-logo-height: 99px;
 
 /* IMPORTS
 -------------------------------------------------- */
 @import "variables";
-@import "twitter/bootstrap/3.0.0.rc2/bootstrap";
-@import "font-awesome";
+@import "bootstrap.3.0.2/bootstrap";
+<<<<<<< HEAD
+@import "font-awesome-3.2.1/font-awesome";
+=======
+//@import "font-awesome";
+>>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
 @import "footer";
  
 /* FIX FOR IE DEVICE_WIDTH BUG
@@ -64,7 +70,7 @@ a {
   margin: 0;
   width: 50px;
   height: 42px;
-  line-height: 42px;
+  line-height: 52px;
   background-color: #505050;
   color: #fff;
   @include transition(all 0.4s ease-in-out);
@@ -88,8 +94,8 @@ h1, h2, h3, h4, h5, h6,
   color: $brand-primary;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+<<<<<<< HEAD
+=======
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -100,47 +106,43 @@ h1, h2, h3, h4, h5, h6,
   background-color: #505050;
   overflow: hidden;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   background-color: #505050;
 }
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
+  //position: absolute;
+  //top: 0;
+  //left: 0;
   min-width: 100%;
 }
 
 // Toggles
-.carousel-control .icon-prev,
-.carousel-control .icon-next {
-  width:  90px;
-  height: 90px;
-  margin-top: -45px;
-  margin-left: -45px;
-  font-size: 90px;
-}
+//.carousel-control .icon-prev,
+//.carousel-control .icon-next {
+//  width:  90px;
+//  height: 90px;
+//  margin-top: -45px;
+//  margin-left: -45px;
+//  font-size: 90px;
+//}
 // Scale up controls for tablets and up
 @media screen and (min-width: $screen-tablet) {
 
   // Scale up the controls a smidge
-  .carousel-control .icon-prev,
-  .carousel-control .icon-next {
-    width:  90px;
-    height: 90px;
-    margin-top: -45px;
-    margin-left: -45px;
-    font-size: 90px;
-  }
+  //.carousel-control .icon-prev,
+  //.carousel-control .icon-next {
+  //  width:  90px;
+  //  height: 90px;
+  //  margin-top: -45px;
+  //  margin-left: -45px;
+  //  font-size: 90px;
+  //}
 } 
 @media (min-width: $grid-float-breakpoint) {
   /* Bump up heights of carousel item */
   .carousel .item {
-    height: 700px;
+    max-height: 700px;
   }
 
   /* Bump up size of carousel content */
@@ -149,14 +151,16 @@ h1, h2, h3, h4, h5, h6,
       font-size: 21px;
       line-height: 1.4;
     }
-  .carousel-control .icon-prev {
-    margin-left: -120px;
-  }
-  .carousel-control .icon-next {
-    margin-left: 30px;
-  }
+  //.carousel-control .icon-prev {
+  //  margin-left: -120px;
+  //}
+  //.carousel-control .icon-next {
+  //  margin-left: 30px;
+  //}
 }
 
+
+>>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */ 
 body { padding-top: $navbar-height; }
@@ -167,12 +171,10 @@ body { padding-top: $navbar-height; }
   }
 }
 .navbar-brand {
-  font-size: 30px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-} 
+  padding-top: ($navbar-height - $th-brand-logo-height)/2;
+  padding-bottom: ($navbar-height - $th-brand-logo-height)/2;
+}
+
 .navbar-nav {
   
   > li > a {
@@ -289,14 +291,16 @@ body { padding-top: $navbar-height; }
 } 
 
 .copy-text {
-  font-size: 17px;
-  line-height: 30px;
-  font-weight: 400;
-  //max-width: 700px;
-  //@include center-block();
+  ul { list-style: disc outside; margin-left: 30px; }
+  ol { margin-left: 30px; }
   table {
     @extend .table;
     text-align: left;
+  }
+  @media (min-width: $grid-float-breakpoint) {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
   }
 }
 

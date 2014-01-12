@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
   jQuery('input').bind('input propertychange', function() {
     jQuery(this).parent().find('.error').remove();
     jQuery(this).parent().find('.valid').remove();
-    if (jQuery(this).attr('id') == 'email') {
+    if (jQuery(this).attr('id') == 'inquiry_email') {
       var checkEmail = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
       if (jQuery(this).val() == "" || jQuery(this).val() == " ") {
         jQuery(this).after("<span class='error'></span>");
@@ -112,6 +112,7 @@ jQuery(document).ready(function() {
     }
 	})
 	.on("ajax:success", function(evt, data, status, xhr) {
+	  console.log("ok")
     jQuery('span.valid').remove();
     jQuery('#thanks').fadeIn('slow');
     jQuery('input').val('');
