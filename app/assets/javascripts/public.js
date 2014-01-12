@@ -104,6 +104,11 @@ jQuery(function($){
       $('.navbar-nav li').on("click", function(e) {
         var target = $("#" + $(this).attr('id') + "_page");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+         e.preventDefault();
+console.log(target.offset())
+>>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
 =======
          e.preventDefault();
 console.log(target.offset())
@@ -122,7 +127,11 @@ console.log(target.offset())
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         e.preventDefault();
+=======
+        
+>>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
 =======
         
 >>>>>>> d4ce88e12da70db87a103ffa2f40fd7de68edc8c
