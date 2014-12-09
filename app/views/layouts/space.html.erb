@@ -3,16 +3,13 @@
 <%= render 'head' %>
 <body id='<%= @body_id %>'>
   <div id="wrap">
-    <%= render "navbar" %>
     <section class="main-content">
       <%= yield %>
     </section>
   </div>
-  <%= render 'google_map' %>
-  <%= render 'footer' %> 
   <!-- Back To Top -->
   <a id="back-to-top" href="#" class="text-center">
-  	<i class="icon-angle-up icon-2x"></i>
+    <i class="icon-angle-up icon-2x"></i>
   </a>
   <!-- End Back to Top -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

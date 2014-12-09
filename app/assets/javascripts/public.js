@@ -159,7 +159,7 @@ jQuery(function($){
     //THEME.anim(); 
     //THEME.textCenter();
     THEME.navigation();
-    $('.legal a').attr("data-remote", "true");
+    //$('.legal a').attr("data-remote", "true");
     THEME.scrollToTop();
     THEME.placeholder();
   });

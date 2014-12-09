@@ -12,6 +12,7 @@
   </div>
   <% if record.children.in_menu.try(:any?) %>
   <div id="spaces" class="container">
+    <div id="space-page"></div>
     <div class="row">
         <% record.children.in_menu.each do |p| %>
         <div class="col-xs-6 col-sm-3">

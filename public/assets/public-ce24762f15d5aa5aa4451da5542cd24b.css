@@ -3086,8 +3086,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/assets/twitter/glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot);
-  src: url(/assets/twitter/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/assets/twitter/glyphicons-halflings-regular-0391150c52d1f65893d1d6b0d29fd0c9.woff) format("woff"), url(/assets/twitter/glyphicons-halflings-regular-b5577a3f3fb089369af33ce56e196d02.ttf) format("truetype"), url(/assets/twitter/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+  src: url(/assets/twitter/glyphicons-halflings-regular-8a347d4801a369a2fef16dccd2daf70e.eot);
+  src: url(/assets/twitter/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(/assets/twitter/glyphicons-halflings-regular-eae7580a5c1cef17edcf08f1264f45c1.woff) format("woff"), url(/assets/twitter/glyphicons-halflings-regular-b506a4d2cb8260b8e4612d3e295ba6a3.ttf) format("truetype"), url(/assets/twitter/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 
 /* line 21, ../../app/assets/stylesheets/bootstrap.3.0.2/_glyphicons.scss */
@@ -7779,8 +7779,8 @@ td.visible-print {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot");
-  src: url("/assets/fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot?#iefix") format("embedded-opentype"), url("/assets/fontawesome-webfont-b4d67f1e5651506c3e80d842ee67d6ba.woff") format("woff"), url("/assets/fontawesome-webfont-fb7a72c810ec644f3c26dcca68638308.ttf") format("truetype"), url("/assets/fontawesome-webfont-f1c2889911d212e1403b68eabc1a3a56.svg#fontawesomeregular") format("svg");
+  src: url("/assets/fontawesome-webfont-748acb824ec6cf781401beccead3cfb2.eot");
+  src: url("/assets/fontawesome-webfont-748acb824ec6cf781401beccead3cfb2.eot?#iefix") format("embedded-opentype"), url("/assets/fontawesome-webfont-5a555be7c82166edbe5603c7fa19bfc7.woff") format("woff"), url("/assets/fontawesome-webfont-4a5576eda11ec10e73e1bc1e5cc13eba.ttf") format("truetype"), url("/assets/fontawesome-webfont-f8154a88507639e8ba69247dcd399af8.svg#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10103,7 +10103,7 @@ a .icon-flip-vertical:before {
 
 /* line 30, ../../app/assets/stylesheets/_footer.scss */
 .copyright-author {
-  background: transparent url(/assets/gko/logo_gecko_black-54320c6a6ed72638b09842e1dcc8e9f4.png) center left no-repeat;
+  background: transparent url(/assets/gko/logo_gecko_black-b151b8da1c787a3cf4878510fe137657.png) center left no-repeat;
   padding-left: 28px;
 }
 

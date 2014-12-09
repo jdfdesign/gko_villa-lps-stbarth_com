@@ -1,7 +1,4 @@
-$("body").append('<%= escape_javascript(render('show')) %>');
-
-$("#page-modal").on('show.bs.modal', function (e) {
-  $(this).find('.modal-dialog:first').css('width', $(window).width() - 60);
-}).on('hidden.bs.modal', function (e) {
-  $(this).remove();
-}).modal( { backdrop: 'static', show: true } )
+$("#space-page").html('<%= escape_javascript(render('page', :record => resource)) %>');
+$('html, body').stop().animate({
+    scrollTop: $("#space-page").offset().top - 120
+}, 1500, 'easeInOutExpo');
